@@ -1,0 +1,3072 @@
+1
+Juillet-2026
+Présentation de
+WeenSight
+Plateforme d'IA Générative pour la transformation digitale des entreprises
+
+-- 1 of 113 --
+
+2
+PRÉSENTATION WEVIOO & NOS ATOUTS
+POUR VOUS ACCOMPAGNER
+
+-- 2 of 113 --
+
+3
+460
+Talents
+28
+Années
+500+
+Projets
+Délivrés dans plus de 30 pays de
+la region EMEA
+06
+Implantations
+Paris, Tunis, Alger,
+Abidjan, Riyadh et Dubaï
+Partageant une solide culture
+d’entreprise
+De croissance et de
+développement
+Wevioo en bref
+Partenaire de vos enjeux de transformation et de performance
+
+-- 3 of 113 --
+
+4
+Nos modèles de delivery
+favorisant la proximité avec nos clients
+Des bureaux régionaux permettant d'assurer une
+proximité commerciale et opérationnelle avec nos clients
+Nos consultants peuvent intervenir en présentiel chez
+le client, à distance dans nos centres ou en mode
+hybride.
+Mode Projets
+Centre de services
+Capacités onshore/
+nearshore
+Modèles de delivery
+
+-- 4 of 113 --
+
+5
+Allier les opérations, la technologie et l'innovation
+pour relever les défis de l'entreprise et obtenir de meilleures performances
+CONSULTING SERVICES
+DIGITAL SERVICES
+MANAGED SERVICES
+Stratégie Business Optimisation des
+process
+Transformation
+digitale Data & IA
+Développement de
+solutions
+Développement Lo
+w-code
+Assurance
+Qualité
+Innovation Digitale
+Poste de travail
+&
+Collaboration
+Application
+Management
+Cloud &
+Infrastructure Securité SI
+
+-- 5 of 113 --
+
+7
+Notre savoir-faire métier
+Secteurs d'intervention
+Banque et Services Financiers
+Nous vous accompagnons pour lever les défis de l’excellence
+opérationnelle en vue d’une transformation aboutie au service de vos
+clients, partenaires et collaborateurs
+Secteur Public
+Nous supportons nos clients pour relever les défis de
+l’excellence opérationnelle en vue d’un meilleur service aux
+usagers avec des couts maitrisés.
+Assurance
+Nous offrons un savoir-faire et des expertises dans les métiers de
+l'assurance qui sont mobilisés pour vous accompagner pour la réussite de
+vos projets de transformation et pour vous permettre d'apporter de la
+valeur à vos clients et un avantage compétitif sur le marché.
+Industrie & Supply chain
+Nous mettons à votre disposition une connaissance approfondie
+de la Supply Chain et de la Logistique et une panoplie large
+d'expertises métier et digitales qui sont mobilisées pour
+réussir vos projets et pour apporter à nos clients de la valeur
+ajoutée avec un ROI mesurable
+“ UN VRAI PARTENAIRE CAPABLE DE VOUS ACCOMPAGNER AU NIVEAU DE TOUT LE GROUPE”
+
+-- 6 of 113 --
+
+8
+Ils nous ont fait confiance
+Une sélection de nos clients
+Technologie
+Télécom
+Finance
+Industrie &
+Supply Chain
+Secteur Public
+
+-- 7 of 113 --
+
+9
+Ils nous ont fait confiance
+Zoom sur Nos clients dans la finance
+Financement
+spécialisé
+Banque
+d’investissement
+Microfinance
+Banque de détail
+Assurance
+Bailleurs de fonds
+
+-- 8 of 113 --
+
+10
+Notre plateforme Weensight
+
+-- 9 of 113 --
+
+11
+Vos métiers font face à des freins structurels que les outils traditionnels ne résolvent plus. WEENSIGHT y répond avec une pl ateforme unifiée.
+1 Vos collaborateurs perdent des
+heures
+à chercher l'information dispersée dans des silos
+documentaires et des systèmes hétérogènes.
+2 Vos équipes back-office traitent
+encore beaucoup de documents
+scannés
+Saisie, vérification, traitement de données issues de
+factures, contrats, formulaires et pièces d'identité :
+ces tâches mobilisent un temps considérable et
+exposent à un risque d'erreur élevé
+3 Vos métiers attendent les équipes
+data
+pour obtenir un simple rapport ou une analyse, ce qui
+ralentit la prise de décision au quotidien
+4 Vos données sensibles ne peuvent
+pas quitter vos murs
+ce qui vous prive des services GenAI grand public et
+impose une souveraineté on-premise ou cloud privé.
+5 Vos POC IA isolés coûtent cher et ne
+passent pas en production
+faute de plateforme mutualisée, gouvernée et capable
+d'industrialiser plusieurs cas d'usage simultanément.
+6 Des coûts API qui dérapent — et
+vous n'avez pas la main
+Avec la diffusion des usages et la montée des prix
+unitaires, vos applications adossées à des API GenAI
+génèrent des charges non maîtrisables — facturation
+au token, prix à la merci des éditeurs
+Pourquoi une plateforme GenAI au sein de votre organisation ?
+LES PROBLÉMATIQUES QUE WEENSIGHT RÉSOUT
+
+-- 10 of 113 --
+
+15	15
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+L'IA GÉNÉRATIVE QUI S'ALIGNE SUR VOTRE ENTREPRISE
+« Vos données ne quittent pas
+vos murs.
+L'IA vient à vous. »
+Weensight met l'IA au service de vos données — pas
+l'inverse. Une plateforme conçue pour les
+entreprises qui exigent contrôle, souveraineté et
+industrialisation.
+Privée & souveraine
+On-premise ou cloud privé. Aucune donnée n'est envoyée
+vers des API tierces.
+100% Open Source
+Aucun vendor lock-in, y compris sur les modèles LLM.
+Liberté totale de choix.
+Multi-cas d'usage
+Une seule plateforme pour mutualiser plusieurs cas d'usage
+métiers.
+Time-to-market rapide
+Briques techniques prêtes à l'emploi : premier cas d'usage
+en 2 mois.
+
+-- 11 of 113 --
+
+16	16
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+L’ANONYMISATION COMME SOLUTION DE GESTION DE CONFIDENTIALITÉ POUR
+L’UTILISATION DE LLM DU MARCHÉ
+Self Hosted
+On-Permise
+
+-- 12 of 113 --
+
+17	17
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+UNE PLATEFORME ROBUSTE, OUVERTE ET SOUVERAINE
+Plateforme accélératrice
+Un socle technologique complet pour
+concevoir, déployer et industrialiser
+rapidement vos cas d'usage GenAI.
+100% Open Source
+Architecture ouverte, modèles LLM open-
+source. Zéro vendor lock-in, contrôle total du
+code.
+Souveraineté des données
+Déploiement on-premise ou cloud privé. Vos
+données restent en local — aucun appel à
+OpenAI, Anthropic ou autres API externes.
+Gouvernance multi-usage
+Plusieurs cas d'usage sur une seule plateforme.
+Mutualisation de l'infrastructure, de la
+maintenance et de la gouvernance.
+Apprentissage contextuel
+Phase d'apprentissage sur vos documents et
+bases internes (RAG) pour des réponses
+précises et alignées sur votre métier.
+Briques prêtes à l'emploi
+Gestion des utilisateurs, logs, traçabilité,
+monitoring, évaluation, RBAC, audit…
+industrialisation native.
+Toutes ces briques industrielles sont packagées et opérationnelles dès le déploiement.
+
+-- 13 of 113 --
+
+18	18
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+LES BÉNÉFICES MÉTIERS
+Réduction des coûts
+& des délais
+Optimisation des
+processus existants,
+automatisation des tâches
+chronophages.
+Efficacité
+opérationnelle
+Cycles raccourcis, moins
+d'allers-retours, moins
+d'erreurs humaines.
+Innovation &
+avantage compétitif
+Nouveaux services à forte
+valeur, différenciation sur
+des cas d'usage IA.
+Expérience
+client renforcée
+Réponses contextualisées
+24/7, parcours plus fluides,
+satisfaction accrue.
+Expérience
+collaborateur
+Copilote métier, accès
+instantané au savoir
+interne, montée en
+compétence.
+Automatiser la lecture des documents, l'extraction des données et la recherche dans les SI — là où une intervention humaine était jusque-là nécessaire.
+
+-- 14 of 113 --
+
+19	19
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+UNE IA PRIVÉE, SÉCURISÉE, PILOTÉE PAR VOTRE CONTEXTE ET ALIGNÉE À VOS CONDITIONS
+ERP
+Data Bases | Documents | Applications
+CRM
+BI
+Data Management
+Model
+ Deployment
+Monitoring
+& validation
+Alerts Public / Private
+Cloud
+On-Premise Private Data
+Center
+Chat/ Information
+Gestion des ressources
+humaines
+Assistance
+Réception et traitement
+des réclamations
+Service Client
+Achat, Gestion
+des offres et
+devis, Contrats
+Gestion de projets
+GEN BI
+Création de contenu
+Digital Marketing
+Autres cas
+d’usages
+
+-- 15 of 113 --
+
+20
+« Briques technologiques prêtes à l’emploie» — Weensight industrialise dès le départ : gouvernance, sécurité, observabilité et évaluation intégrées au socle.
+Sélection & gestion des
+modèles LLM
+■ Catalogue multi-modèles : open
+source & propriétaires
+■ Bascule à chaud entre Llama, Mistral,
+Qwen, GPT, Claude…
+■ Comparaison de modèles par cas
+d'usage
+Configuration fine des
+paramètres
+■ Réglage température, top-p, max
+tokens, prompts système
+■ Templates de prompts versionnés et
+réutilisables
+■ Paramétrage RAG : chunking,
+embeddings, retrieval
+Gestion des utilisateurs &
+RBAC
+■ Contrôle d'accès granulaire par rôle et
+périmètre
+■ Intégration IAM / SSO (Auth0, AD,
+Azure AD)
+■ Cloisonnement des données par
+équipe et cas d'usage
+Sécurité & Guardrails
+■ Garde-fous conversationnels & filtrage
+de contenu
+■ Chiffrement TLS 1.2+, isolation des
+données
+■ Conformité éthique et réglementaire
+intégrée
+Monitoring & Observabilité
+■ Supervision temps réel des pipelines &
+modèles
+■ Logs détaillés, tracing, métriques de
+performance
+■ Alertes sur dérive, latence et
+consommation
+Évaluation continue des
+réponses
+■ Métriques RAG : faithfulness,
+relevancy, precision/recall
+■ Feedback utilisateur intégré (RLHF)
+■ Tests automatisés et benchmarks par
+cas d'usage
+Pistes d'audit & Traçabilité
+■ Historisation complète des prompts,
+réponses & sources
+■ Journalisation des accès et actions
+administrateurs
+■ Export et reporting conformité (RGPD,
+audits internes)
+Intégration & Connecteurs
+■ Connecteurs natifs : bases, ERP, CRM,
+stockage, APIs
+■ Bases vectorielles : Chroma, Qdrant,
+Milvus, Weaviate
+■ Chatbot embarquable, APIs ouvertes,
+déploiement flexible
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+L'ACCÉLÉRATEUR PROJET QUI FAIT PASSER VOS CAS D'USAGE DU POC À LA PRODUCTION
+
+-- 16 of 113 --
+
+21
+✗ Ce que ce n'est PAS
+Un produit SaaS auquel on s'abonne
+Un chatbot ou une application sur étagère
+Un éditeur qui héberge vos données
+Une plateforme avec verrouillage fournisseur
+✓ Ce que c'EST
+Votre environnement IA — déployé dans votre infra
+Une plateforme pour construire & industrialiser les cas d'usage
+Agnostique en modèles — vous choisissez votre LLM
+Code source intégralement livré au client
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+CE N'EST PAS UN SAAS. C'EST UN ENVIRONNEMENT IA PRIVÉ DÉPLOYÉ DANS L'INFRASTRUCTURE DU
+CLIENT — CONSTRUIT POUR SES CAS D'USAGE
+Notre mode d'engagement
+4 principes structurants de notre delivery
+Mode projet + Maintenance
+Engagement structuré à périmètre défini. Ni
+abonnement, ni licence récurrente — vous
+gardez la maîtrise budgétaire.
+Pilote, puis généralisation
+Démarrage par 1 à 2 cas d'usage prioritaires.
+Une fois la valeur prouvée, industrialisation
+progressive sur les autres processus.
+Co-construction
+Vos équipes construisent avec nous, pas une
+« boîte noire » livrée clé en main. Décisions et
+arbitrages partagés à chaque étape.
+Transfert de compétences
+Learning by doing : vos équipes deviennent
+progressivement autonomes sur la
+plateforme et les cas d'usage.
+
+-- 17 of 113 --
+
+22
+Catalogue des uses cases
+
+-- 18 of 113 --
+
+23
+LES USES CASES WEENSIGHT par typologie
+
+-- 19 of 113 --
+
+24
+Chaque besoin client trouve sa place dans l'une des 4 familles ci-dessous, organisées du dialogue avec l'humain jusqu'à l'exploitation de la donnée.
+F1 6 use cases
+INTERAGIR & ASSISTER
+L'IA dialogue avec vos collaborateurs et
+vos clients
+V A L EU R M É T I E R
+■ Productivité collaborateurs
+■ Accessibilité de la connaissance
+■ Qualité de service client 24/7
+T E C H N O L O G I E S
+LLM conversationnel · RAG · Multimodal ·
+Multilingue
+F2 2 use cases
+EXTRAIRE & STRUCTURER
+L'IA lit, comprend et structure vos
+documents
+V A L EU R M É T I E R
+■ Automatisation des saisies
+■ Fiabilisation des données
+■ Gain de temps back-office
+T E C H N O L O G I E S
+VLM · OCR intelligent · Document Intelligence ·
+E-KYC
+F3 6 use cases
+ANALYSER , DÉCIDER &
+AUTOMATISER
+L'IA évalue, compare et qualifie pour
+aider la décision
+V A L EU R M É T I E R
+■ Qualité des décisions
+■ Conformité & maîtrise du risque
+■ Objectivité & traçabilité
+T E C H N O L O G I E S
+Matching sémantique · Scoring IA · Contract
+checking · Compliance
+F4 2 use cases
+EXPLORER & RESTITUER LA
+DONNÉE
+L'IA fait parler vos données et produit vos
+rapports
+V A L EU R M É T I E R
+■ Démocratisation de la BI
+■ Agilité décisionnelle
+■ Réduction du time-to-insight
+T E C H N O L O G I E S
+Text-to-SQL · Text-to-Chart · NL2SQL · Data
+Storytelling
+Les 4 familles de cas d'usage WEENSIGHT
+UNE GRILLE DE LECTURE POUR STRUCTURER LA VALEUR
+
+-- 20 of 113 --
+
+25
+D É F I N I T I O N
+Assistants conversationnels et copilotes métier qui interagissent en
+langage naturel pour répondre aux questions, accéder à la connaissance
+et guider les utilisateurs.
+V A L E U R M É T I E R A P P O R T É E
+✓ Productivité collaborateurs
+✓ Accessibilité de la connaissance
+✓ Qualité de service client 24/7
+T E C H N O L O G I E S & C A P A C I T É S C L É S
+LLM conversationnel · RAG · Multimodal · Multilingue
+U S E C A S ES D E L A F A M IL L E ( 6 )
+UC-01 Plateforme documentaire collaborateurs Assurance
+UC-04 Chatbot e-learning multilingue Public / Éducation
+UC-05 Assistant citoyen GPT BJ Public / Gouvernement
+UC-06 Copilote documentaire collaborateurs Assurance
+UC-08 Gestion des réclamations réseaux sociaux Assurance
+UC-15 Chatbot support technique produits Industrie / Tech
+WEENSIGHT · Typologie des cas d'usage GenAI · Wevioo 3 / 6
+INTERAGIR & ASSISTER
+L'IA DIALOGUE AVEC VOS COLLABORATEURS ET VOS CLIENTS
+
+-- 21 of 113 --
+
+26
+D É F I N I T I O N
+Extraction intelligente de données depuis des documents non structurés
+(factures, contrats, formulaires, pièces d'identité) via la vision par
+ordinateur et l'OCR avancé.
+V A L E U R M É T I E R A P P O R T É E
+✓ Automatisation des saisies
+✓ Fiabilisation des données
+✓ Gain de temps back-office
+T E C H N O L O G I E S & C A P A C I T É S C L É S
+VLM · OCR intelligent · Document Intelligence · E-KYC
+U S E C A S ES D E L A F A M IL L E (2 )
+UC-11 E-KYC documentaire Finance
+UC-13 Plateforme de pré-comptabilité Finance
+WEENSIGHT · Typologie des cas d'usage GenAI · Wevioo 4 / 6
+EXTRAIRE & STRUCTURER
+L'IA LIT, COMPREND ET STRUCTURE VOS DOCUMENTS
+
+-- 22 of 113 --
+
+27
+wevioo
+D É F I N I T I O N
+Analyse comparative de documents (matching, conformité) et scoring
+intelligent (risque, pertinence, qualité) pour fiabiliser et accélérer les
+processus métier.
+V A L E U R M É T I E R A P P O R T É E
+✓ Qualité des décisions
+✓ Conformité & maîtrise du risque
+✓ Objectivité & traçabilité
+T E C H N O L O G I E S & C A P A C I T É S C L É S
+Matching sémantique · Scoring IA · Contract checking · Compliance
+U S E C A S ES D E L A F A M IL L E (6 )
+UC-03 Vérification des clauses de contrats Assurance
+UC-07 Scoring & tri automatique de CV Tech / RH
+UC-09 Matching RH pour appels d'offres Tech / Commercial
+UC-10 Analyse dossier d'affacturage Finance
+UC-14 Plateforme d'innovation ouverte Tourisme / R&D
+UC-16 Vérification automatique rapports d'audit Public / Cybersécurité
+WEENSIGHT · Typologie des cas d'usage GenAI · Wevioo 5 / 6
+ANALYSER, DÉCIDER ET AUTOMATISER
+L'IA ÉVALUE, COMPARE ET QUALIFIE POUR AIDER LA DÉCISION
+
+-- 23 of 113 --
+
+28
+wevioo
+D É F I N I T I O N
+Dialogue en langage naturel avec les bases de données et entrepôts BI :
+génération de requêtes, de graphiques et de rapports personnalisés en
+quelques clics.
+V A L E U R M É T I E R A P P O R T É E
+✓ Démocratisation de la BI
+✓ Agilité décisionnelle
+✓ Réduction du time-to-insight
+T E C H N O L O G I E S & C A P A C I T É S C L É S
+Text-to-SQL · Text-to-Chart · NL2SQL · Data Storytelling
+U S E C A S ES D E L A F A M IL L E (2 )
+UC-02 Génération automatique de rapports Assurance
+UC-12 Analyse des états financiers Finance
+WEENSIGHT · Typologie des cas d'usage GenAI · Wevioo 6 / 6
+EXPLORER & RESTITUER LA DONNÉE
+L'IA FAIT PARLER VOS DONNÉES ET PRODUIT VOS RAPPORTS
+
+-- 24 of 113 --
+
+29
+LES USES CASES WEENSIGHT par secteur d’activité
+
+-- 25 of 113 --
+
+30
+VUE 2
+Weensight · Catalogue de Use Cases
+Secteur Public
+Moderniser les services aux citoyens, réduire les délais, assurer
+la conformité réglementaire
+Assistant citoyen pour démarches admin
+Base Q&R réglementation & procédures
+Orchestration KYC bout-en-bout
+Numérisation rapports & documents officiels
+Banque
+Accélérer l'onboarding, réduire le risque, automatiser la
+conformité, servir à grande échelle
+e-KYC documentaire (ID, passeport, revenus)
+Pipeline KYC orchestré bout-en-bout
+Vérification clauses & conformité contrats
+Scoring risque crédit & fournisseurs
+Assurance
+Accélérer les sinistres, automatiser la souscription, assurer la
+conformité à moindre coût
+Analyse automatisée polices & dossiers sinistres
+Numérisation & extraction dossiers sinistres
+Scoring risque pour souscription
+Agent d'orchestration traitement sinistres
+Industrie
+Réduire les pannes, optimiser la maintenance, améliorer le
+contrôle qualité et la traçabilité
+Agent de surveillance intelligente des capteurs
+Numérisation manuels techniques & formulaires
+Base de connaissances techniques terrain
+Analyse des rapports de contrôle qualité
+Retail & Services
+Personnaliser l'expérience client, optimiser les opérations,
+accélérer le contenu à grande échelle
+Chatbot assistant shopping personnalisé
+Descriptions produits & contenu marketing
+Analyse contrats & conditions fournisseurs
+Scoring qualité fournisseurs & produits
+Vue d'ensemble — 5 Secteurs
+VUE SYNTHÉTIQUE DU CATALOGUE SECTORIEL
+
+-- 26 of 113 --
+
+31
+VUE 2
+Weensight · Catalogue de Use Cases
+Secteur Public
+Moderniser les services aux citoyens, réduire les délais, assurer la conformité réglementaire
+C&A Assistant citoyen pour démarches admin
+→ Service 24/7, ↓ temps attente
+DKM Base Q&R réglementation & procédures
+→ ↑ précision des agents
+TAA Orchestration KYC bout-en-bout
+→ Jours → heures
+OCR Numérisation rapports & documents officiels
+→ ↓ saisie manuelle 80%
+DG Génération automatique de rapports personnalisés
+→ ↓ effort reporting 70%
+GBI Dashboards budgétaires en langage naturel
+→ BI pour décideurs non techniciens
+Banque
+Accélérer l'onboarding, réduire le risque, automatiser la conformité, servir à grande échelle
+OCR e-KYC documentaire (ID, passeport, revenus)
+→ ↓ onboarding 60%
+TAA Pipeline KYC orchestré bout-en-bout
+→ Automatisation totale, piste d'audit
+DAM Vérification clauses & conformité contrats
+→ ↓ revue juridique 60%
+SCO Scoring risque crédit & fournisseurs
+→ ↑ précision décisionnelle
+C&A Chatbot service client multilingue
+→ ↓ coût centre d'appels 30%
+GBI Analyse automatisée d'états financiers
+→ ↑ capacité analyste 3x
+Vue Secteur — Secteur Public & Banque
+USE CASES PRIORITAIRES PAR ENJEU SECTORIEL
+
+-- 27 of 113 --
+
+32
+VUE 2
+Weensight · Catalogue de Use Cases
+Assurance
+Accélérer les sinistres, automatiser la souscription, assurer la conformité à moindre coût
+DAM Analyse automatisée polices & dossiers sinistres
+→ ↓ délai traitement 55%
+OCR Numérisation & extraction dossiers sinistres
+→ ↓ traitement manuel 80%
+SCO Scoring risque pour souscription
+→ ↑ précision de la tarification
+TAA Agent d'orchestration traitement sinistres
+→ Automatisation bout-en-bout
+DG Génération personnalisée de polices d'assurance
+→ ↓ coût rédaction 60%
+C&A Chatbot assistant assuré
+→ Self-service 24/7, ↓ appels
+Industrie
+Réduire les pannes, optimiser la maintenance, améliorer le contrôle qualité et la traçabilité
+TAA Agent de surveillance intelligente des capteurs
+→ Maintenance prédictive
+OCR Numérisation manuels techniques & formulaires
+→ ↓ délai gestion documentaire
+DKM Base de connaissances techniques terrain
+→ ↓ dépendance aux experts
+DAM Analyse des rapports de contrôle qualité
+→ ↑ taux détection défauts
+GBI KPIs de production en langage naturel
+→ Visibilité opérationnelle temps réel
+DG Rapports de maintenance & audit automatisés
+→ ↓ effort de reporting
+Vue Secteur — Assurance & Industrie
+USE CASES PRIORITAIRES PAR ENJEU SECTORIEL
+
+-- 28 of 113 --
+
+33
+VUE 2
+Weensight · Catalogue de Use Cases
+Retail & Services
+Personnaliser l'expérience client, optimiser les opérations, accélérer le contenu à grande
+échelle
+C&A Chatbot assistant shopping personnalisé
+→ ↑ taux de conversion
+CG Descriptions produits & contenu marketing
+→ ↓ coût contenu 60%
+DAM Analyse contrats & conditions fournisseurs
+→ ↓ risque achats
+SCO Scoring qualité fournisseurs & produits
+→ ↑ qualité décision sourcing
+GBI Analyse ventes & clients en langage naturel
+→ Insights en self-service
+TAA Automatisation commandes & retours
+→ ↓ coût ops, ↑ rapidité
+Vue Secteur — Santé & Retail & Services
+USE CASES PRIORITAIRES PAR ENJEU SECTORIEL
+
+-- 29 of 113 --
+
+34
+LES USES CASES WEENSIGHT par fonction
+
+-- 30 of 113 --
+
+35
+Weensight · Catalogue de Use Cases
+Juridique & Conformité
+Temps de revue contractuelle, surveillance
+conformité, documentation réglementaire
+Vérification automatique clauses contractuelles
+Analyse conformité des rapports d'audit
+Base de connaissances réglementaires & juridiques
+Génération automatique de contrats & docs juridiques
+Finance & Comptabilité
+Saisie manuelle, délais de reporting, goulots
+d'analyse financière
+Traitement factures & notes de frais
+Analyse & commentaire d'états financiers
+Génération automatique rapports de gestion
+Scoring risque fournisseurs & crédit
+Ressources Humaines
+Tri à grand volume, complexité onboarding,
+rétention des connaissances
+Scoring automatique CV & classement candidats
+Matching CV / fiche de poste
+Assistant politiques & procédures RH
+Génération documents d'intégration
+Marketing & Communication
+Volume contenu, personnalisation à grande
+échelle, reporting campagnes
+Génération contenu réseaux sociaux & marketing
+Rédaction emails & newsletters
+Rapports & présentations clients personnalisés
+Analytique campagne en langage naturel
+Achats & Procurement
+Risque fournisseurs, revue contractuelle, volumes de bons de
+commande
+Scoring risque & qualité fournisseurs
+Analyse & comparaison contrats & conditions
+Automatisation traitement bons de commande
+Numérisation factures & bons de livraison
+Opérations & IT
+Goulots de processus, volume support, surcharge documentaire
+Chatbot support IT niveau 1
+Agents d'orchestration de processus bout-en-bout
+Base de connaissances techniques équipes ops
+Génération SQL & scripts pour non-techniciens
+Management & Stratégie
+Manque de visibilité temps réel, délais reporting, silos de données
+bloquants
+Dashboards dirigeants en langage naturel
+Génération automatique rapports Comex & Codir
+Q&R documents stratégiques & veille marché
+Scoring portefeuille projets & initiatives
+Vue d'ensemble — 7 Fonctions
+VUE SYNTHÉTIQUE DU CATALOGUE FONCTIONNEL
+
+-- 31 of 113 --
+
+39
+Catalogue des Uses cases (Réalisé + En cours)
+
+-- 32 of 113 --
+
+40
+CATALOGUE DES USES CASES ACTUELS
+Nom du use case Client /
+Contexte Description du besoin
+Conversation	
+& Assistance
+Document
+Knowledge
+ Mgmt
+OCR Avancé
+(VLM)
+Document Analysis
+& Matching	
+Scoring IA
+GEN BI
+Secteur
+Fonction/
+Utilisateur
+cible
+Plateforme
+documentaire
+collaborateurs
+(MAGH_IA UC1)
+Assurances
+Maghrebia
+Accès rapide et sécurisé aux
+documents internes pertinents pour
+accomplir les tâches efficacement,
+sans recherche manuelle dans
+plusieurs sources.
+✓ ✓
+Assuranc
+e / Multi-
+secteurs
+Tous
+collaborateu
+rs
+Génération
+automatique de
+rapports (MAGH_IA
+UC2)
+Assurances
+Maghrebia
+Création rapide de documents
+personnalisés (rapports d'activité) par
+les responsables spécialisés à partir
+de données internes.
+✓
+Assuranc
+e / Multi-
+secteurs
+Contrôle de
+gestion
+Vérification des clauses
+de contrats (MAGH_IA
+UC3)
+Assurances
+Maghrebia
+Recherche d'informations critiques et
+vérification des clauses de contrats
+par rapport à des modèles de
+référence pour les responsables
+juridiques.
+✓
+Assuranc
+e / Multi-
+secteurs
+Juridique
+Chatbot e-learning
+multilingue
+WURI /
+APDP
+(Bénin)
+Chatbot intelligent multilingue
+(FR/EN/Fon) et multimodal intégré à
+une plateforme e-learning permettant
+aux apprenants de poser des
+questions sur les cours dispensés.
+✓ ✓ Public /
+Education
+Grand
+public /
+Apprenants
+
+-- 33 of 113 --
+
+41
+Nom du use case Client /
+Contexte Description du besoin
+Conversation	
+& Assistance
+Document
+Knowledge
+ Mgmt
+OCR Avancé
+(VLM)
+Document Analysis
+& Matching	
+Scoring IA
+GEN BI
+Secteur
+Fonction/
+Utilisateur
+cible
+Assistant citoyen GPT BJ ASIN (Bénin)
+Assistant conversationnel
+répondant aux questions des
+citoyens et investisseurs sur les
+démarches administratives (code
+fiscal, numérique, travail, pénal).
+✓ ✓
+Public /
+Gouvern
+ement
+Citoyens /
+Investisseurs
+Copilote documentaire
+collaborateurs
+Assurances
+STAR
+Accès rapide aux documents
+internes pour réduire les tickets
+GLPI ; le collaborateur interroge
+la base de connaissances en
+langage naturel.
+✓ ✓
+Assuranc
+e/ Multi-
+secteurs
+Tous
+collaborateurs
+Scoring & tri automatique de
+CV
+Wevioo TN /
+FR (RH)
+Évaluation et classement des
+candidatures (CV) par rapport à
+un poste donné via matching de
+compétences et scoring de
+pertinence.
+✓ ✓
+Tech /
+Multi-
+secteurs
+Ressources
+Humaines
+Gestion des réclamations
+réseaux sociaux
+Assurance
+(projet
+interne)
+Traitement automatisé des
+réclamations et demandes clients
+issues des réseaux sociaux et
+divers canaux digitaux.
+✓
+Assuranc
+e / Multi-
+secteurs
+Marketing /
+Customer
+Care
+Matching RH pour appels
+d'offres
+Wevioo
+(Commercial)
+Analyse et correspondance des
+profils RH disponibles avec les
+exigences des appels d'offres
+pour identifier les meilleures
+✓ ✓
+Tech /
+Multi-
+secteurs
+Commercial /
+RH
+
+-- 34 of 113 --
+
+42
+CATALOGUE DES USES CASES ACTUELS
+Nom du use case Client /
+Contexte Description du besoin
+Conversation	
+& Assistance
+Document
+Knowledge
+ Mgmt
+OCR Avancé
+(VLM)
+Document Analysis
+& Matching	
+Scoring IA
+GEN BI
+Secteur
+Fonction/
+Utilisateur
+cible
+Analyse dossier
+d'affacturage (CA L&F)
+CA Leasing
+& Factoring
+Automatisation complète du dossier
+affacturage : OCR factures, vérification
+conformité contractuelle, détection de
+fraude, scoring risque et
+recommandation de financement.
+✓ ✓ ✓ ✓ Finance
+Analyste
+Financier /
+Risk
+E-KYC documentaire TLF
+(Finance)
+Extraction et vérification des données
+d'identité depuis des documents
+officiels (Formulaire Onboarding, CNI,
+passeport, justificatifs) pour les
+processus de conformité KYC.
+✓
+Finance /
+Multi-
+secteurs
+Conformité
+Analyse des états
+financiers
+TLF
+(Finance)
+Analyse automatisée des états
+financiers des clients demandant des
+financements : extraction des
+indicateurs clés, scoring de risque
+crédit et génération de synthèse.
+✓ ✓ ✓ Finance
+Analyste
+Financier /
+Risk
+Plateforme de pré-
+comptabilité
+SODEXCA
+(Bénin)
+Extraction intelligente des données de
+factures via OCR, classification
+comptable automatique et
+recommandation du compte comptable
+adapté.
+✓ Finance Comptabilité
+
+-- 35 of 113 --
+
+43
+CATALOGUE DES USES CASES ACTUELS
+Nom du use case Client /
+Contexte Description du besoin
+Conversation	
+& Assistance
+Document
+Knowledge
+ Mgmt
+OCR Avancé
+(VLM)
+Document Analysis
+& Matching	
+Scoring IA
+GEN BI
+Secteur
+Fonction/
+Utilisateur
+cible
+Plateforme d'innovation
+ouverte (POC) TDF (KSA)
+Collecte conversationnelle,
+structuration, évaluation et
+scoring automatique des idées
+d'innovation soumises par les
+collaborateurs.
+✓ ✓
+Tourisme
+/ Multi-
+secteurs
+Innovation /
+R&D
+Chatbot support
+technique produits
+Mitsubishi
+Electric
+Europe
+Chatbot intelligent répondant aux
+questions techniques sur les
+appareils électriques, avec mode
+troubleshooting interactif pour
+guider la résolution de
+problèmes.
+✓ ✓ Industrie
+/ Tech
+Support
+technique /
+Clients
+Vérification
+automatique rapports
+d'audit
+ANSI
+(Tunisie)
+Numérisation OCR des rapports
+d'audit de sécurité informatique,
+classification automatique des
+constats, indexation et recherche
+avancée.
+✓ ✓ ✓
+Public /
+Cyberséc
+urité
+RSSI /
+Auditeurs
+
+-- 36 of 113 --
+
+Business Cases & Démo
+
+-- 37 of 113 --
+
+45
+Références internationales
+internationales
+C onstructeursprem ium et grandscom ptes
+européens:M ercedes-B enz,B M W G roup,
+M itsuNishiElectric Europe,C arrefour,
+S opraB anking S oftR areB
+Ancrage secteur régulé
+B anque,financem ent spécialisé et
+assurance :e-KYC & L C B -FT ,affacturage,
+analyse crédit,conform ité contractuelleB
+Toute la chaîne IA
+IA G énérative,M achine L earning,A gentic
+A I,C om puterVision C O C R ,N L P ,Data
+Q uality — du P O C à laproductionB
+Industrialisation prouvée
+MLOps (Kubeflow, CI/CD, monitoring), pipelines
+pipelines cloud Azure & AWS, human-in-
+the
+the
+-
+-
+loop
+loop
+et pistes d'audit.
+Impact métier mesurable
+R éduction destem psde traitem ent,
+autom atisation descontrô les,conform ité
+renforcée,décisionsaccéléréesB
+Souveraineté & sécurité
+L L M open source on-prem ise,plateform es
+gouvernem entales,protection des
+donnéespersonnellesB
+3
+DES PREUVES, PAS DES PROMESSES
+POURQUOI WEVIOO EST CRÉDIBLE EN IA
+
+-- 38 of 113 --
+
+46
+IA Générative
+M aghreNia(M A GH _IA ),S T A R ,A S IN (G P T B J),
+W U R ICA P DP ,T DF,W evioo R H
+Document Intelligence
+S opraB anking S oftR are (50k contrats),T L F e-
+KY C ,C A L & F,S O DEX C A
+Machine Learning prédictif
+FT U S A & A rgu sEnnakl(valeu rvéhicule),C IM F
+(fiscal)
+Recommandation
+BMW Group (contenu multimédia), Carrefour (produit),
+(produit), STAR (Next Best Offer)
+Computer Vision / OCR
+A N S I(S m artDoc),S B S ,T L F,C A L & F
+Chatbots / Conversationnel
+M itsu NishiElectric,S T A R ,W U R ICA P DP
+(m u ltilingu e),A S IN
+Classification / Clustering
+S T A R (clientsdorm ants& personas),C IM F
+(contriNu aNles)
+NLP
+Argus Ennakl (traitement annonces), assistants
+conversationnels
+Data Quality
+M ercedes-B enz (C olliNra,détection d'anom alies)
+Agentic AI
+T L F (analyse financière & e-KY C ),C A L & F
+(affacturage),T DF
+4
+UNE COUVERTURE TECHNOLOGIQUE COMPLÈTE
+PANORAMA DES TECHNO IA
+
+-- 39 of 113 --
+
+47
+Banque &
+Assurance
+Industrie &
+Distribution
+Secteur Public
+Services &
+Conseil
+UNE CRÉDIBILITÉ MULTI-SECTORIELLE
+RÉFÉRENCES PAR SECTEUR
+
+-- 40 of 113 --
+
+48
+Relation
+client
+■ Chatbots & assistants (Mitsubishi, STAR)
+■ Chatbot e-learning WURI/APDP
+■ Portail digital client TLF
+Productivité
+& collaborateurs
+■ Assistants documentaires GenIA
+(Maghrebia)
+■ GPT BJ, assistant e-services (ASIN)
+Finance &
+Comptabilité
+■ Analyse d'agrégats & ratios (TLF)
+■ Pré-comptabilité, extraction factures
+(SODEXCA)
+Risque &
+Conformité
+■ e-KYC / LCB-FT (TLF)
+■ Analyse d'affacturage (CA L&F)
+■ Audits de sécurité (ANSI)
+Marketing &
+commercial
+■ Clustering clients & Next Best Offer
+(STAR)
+■ Recommandation produit (Carrefour,
+BMW)
+Data,
+Décisionnel & Prédictif
+■ Data Quality véhicules (Mercedes)
+■ Prédiction valeur marchande (FTUSA,
+Ennakl)
+■ Profilage fiscal (CIMF)
+RH
+■ Scoring & tri automatique de CV
+Gouvernance
+& Innovation
+■ Plateforme d'innovation ouverte (TDF)
+■ e-learning protection des données
+(WURI/APDP)
+Une couverture IA transversale — de la relation client à la gouvernance, au service de tous les métiers.
+DES CAS D'USAGE IA DÉPLOYÉS PAR FONCTION
+CAS D'USAGE MÉTIER COUVERTS
+
+-- 41 of 113 --
+
+49
+RÉFÉRENCES MISE EN PLACE DE SOLUTION IA
+Recommandation contextuelle
+de contenu multimédia
+2024
+ML MLOps Kubeflow AWS
+POC solution Data Quality basée
+sur l’IA: détection d'anomalies DQ
+sur les logs véhicules.
+2024
+Data Quality ML Collibra
+2025
+Mise en place de chatbot
+intelligent: Assistance technique &
+troubleshooting interactif
+RAG LLM Azure Doc Intel.
+Mise en place solution
+Recommandation Next Best Offer
+2021
+ML Azure	MLOps Python
+2025
+Mise en place de solution IA
+prédictive de la valeur marchande
+véhicules
+Scraping	API	ML MLOps Python
+2024
+Mise en place solution Clustoring
+Clients & Recommandation
+Marketing
+ML MLOps Kubeflow Python
+2024
+Mise en place IA Générative :
+Private Document Chat
+GenIA RAG NLP LLM
+Mise en place de solution IA
+prédictive de la valeur marchande
+véhicules d’occasion
+2022
+Scraping Python	ML MLOps	NLP
+Mise en place de solution de
+Profilage des contribuables pour la
+détection de la fraude TVA
+2021
+Python	ML MLOps
+Mise en place IA Générative :
+Chatbots IA pour les E-services
+publiques
+2025
+GenIA RAG NLP LLM
+Plateforme IA de pré-comptabilité
+extraction inlligente des factures et
+prédiction des écritures
+comptables
+2025
+ML MLOps	OCR	NLP
+Mise en place de solution
+d’extraction intelligente des rapports
+d’audit de sécurité informatique
+2023
+Doc Intel.	ML MLOps	OCR	NLP
+
+-- 42 of 113 --
+
+50
+RÉFÉRENCES MISE EN PLACE DE SOLUTION IA
+ChatBot IA multimodal intégré à
+une plateforme de E-Learning
+2026
+GenIA RAG NLP LLM
+MAGH_IA : chatbot, génération de
+docs, clauses.
+2025
+GenIA RAG NLP LLM
+Intelligent Signal Mapping -
+Automatiser L'alignement Des
+Signaux Industriels
+2026
+GenIA RAG Azure IA LLM IA Agentic
+Agent IA pour la classification des
+composants de turbines à gaz
+2026
+GenIA RAG Azure IA LLM IA Agentic
+Agent IA d'analyse de dossiers
+d'affacturage.
+2026
+GenIA RAG NLP LLM IA Agentic
+Extraction et fiabilisation de 50 000
+contrats PDF pour injection au
+CRM.
+2026
+Doc Intel.	ML MLOps	OCR	NLP
+Scoring & ranking automatisé des
+CV
+2025
+ML MLOps Kubeflow Python
+Agent IA d'analyse des agrégats &
+ratios.
+2026
+RAG Gen IA NLP LLM IA Agentic
+Contrôle automatisé des fiches KYC
+(LCB-FT).
+2026
+OCR Gen IA NLP LLM IA Agentic
+Plateforme d'innovation
+augmentée par des agents IA
+autonomes.
+2026
+GenIA NLP LLM IA Agentic	RAG
+
+-- 43 of 113 --
+
+51
+• Lngestion et prétraitement des composants de turbines — gaz depuis SAt (champs aARA)
+• Cascade de préflight : routage déterministe par taxonomie et vérité terrain (codes RT5/RTA)
+• Scoring Ieatmap déterministe des attributs, sans consommation de tokens LA
+• Agent LA sur talantir Coundry pour la classification autonome des cas résiduels
+• Recherche sémantique via Azure AL Search sur la base de connaissances
+• troposition de schémas de données optimisés pour les composants
+• Stockage des résultats dans Azure Cosmos 5B (3 collections : déterministe, heatmap, agent LA)
+• 5éploiement cloud évolutif sur aicrosoft Azure
+• hrchestration agentique de bout en bout du pipeline de classification
+SIEMENS ENERGY-AGENT IA POUR LA CLASSIFICATION DES
+COMPOSANTS DE TURBINES À GAZ
+BUSINESS CASE
+Bénéfices client
+• Ciabilité & standardisation des
+données : classification cohérente
+des composants et schémas
+optimisés pour SAt.
+• Efficacité opérationnelle & coûts
+maîtrisés : réduction de la
+classification manuelle et LA appelée
+uniquement sur les cas résiduels, —
+l'échelle sur Azure.
+Solution Wevioo
+Besoin client
+• Classification automatisée par IA des composants
+de turbines à gaz SAP : catégorisation des pièces,
+fiabilisation des données et schémas optimisés
+Siemens Energy est l'un des leaders
+mondiaux des technologies de l'énergie
+: turbines, générateurs, réseaux et
+solutions de transition énergétique
+déployés dans des centrales du monde
+entier.
+
+-- 44 of 113 --
+
+52
+SIEMENS ENERGY
+USE CASE : AGENT IA POUR LA CLASSIFICATION DES COMPOSANTS DE
+TURBINES À GAZ ISSUS DE SAP
+P r o c e s s u s
+0 1
+Ingestion SAP
+Ingestion & prétraitement des
+composants de turbines à gaz depuis
+SAP (champs MARA)
+0 2
+Cascade déterministe
+Routage par correspondance
+taxonomie & vérité terrain
+Codes RTD/RTA (ex. RTD14)
+0 3
+Scoring Heatmap
+Scoring déterministe des attributs, sans
+appel IA (zéro token)
+0 4
+Agent IA – Foundry
+Classification autonome des cas
+résiduels via l'agent talantir Coundry
+0 5
+Schéma & stockage
+Schéma de données optimisé proposé
++ écriture dans Cosmos DB (3
+collections)
+S y n t h è s e d e l a v a l e u r
+O U T P U T
+Sortie de la solution
+• Chaque composant classé avec son code
+taxonomie
+• Schémas de données optimisés proposés par
+l'IA
+• Cas ambigus signalés (surlignés) pour revue
+humaine
+• Résultats stockés dans 3 collections Cosmos DB
+V A L E U R C L I E N T
+Bénéfices métiers
+• Réduction massive de la classification manuelle
+des pièces
+• Qualité & cohérence des données SAP
+améliorées
+• Coûts maîtrisés : IA appelée uniquement sur les
+cas résiduels
+• Scalabilité cloud sur Azure pour de grands
+volumes
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Classification autonome : agent IA Palantir
+Foundry
+Cascade intelligente : déterministe → heatmap
+→ LA
+Recherche sémantique : AI Search sur la base
+de connaissances
+Suggestion de schémas : recommandations de
+structure de données
+Décision agentique : orchestration autonome
+du pipeline 1
+
+-- 45 of 113 --
+
+53
+SIEMENS ENERGY- Intelligent Signal Mapping - Automatiser
+L'alignement Des Signaux Industriels
+BUSINESS CASE
+Bénéfices client
+• - 80 % de mapping manuel
+• × 5 déploiements plus rapides
+• Réduction drastique des coûts
+d'ingénierie
+• Modèles analytiques réutilisables
+cross-sites
+• Digital twins & maintenance
+prédictive scalables
+Solution Wevioo
+Besoin client
+■ Une centrale électrique génère jusqu'à 100 000 signaux de capteurs (température, pression, courant, vibrations…), mais
+chaque site ou client les nomme selon ses propres conventions — KKS, RDS-PP ou nommages maison. Une même mesure
+porte ainsi trois noms différents selon la centrale (GT1_CURR_A, GENERATOR_CURRENT_01, CUR_PHASE_A), obligeant les
+ingénieurs à un mapping manuel de plusieurs semaines à chaque projet.
+■ Impact : des modèles non réutilisables d'un site à l'autre, et des initiatives de digital twins et de maintenance prédictive
+bloquées faute de données standardisées.
+• Wevioo a développé une solution innovante s'appuyant sur des agents IA, capable de mapper automatiquement des centaines
+de milliers de signaux hétérogènes vers une bibliothèque standardisée (Asset Template Library). Cette approche garantit la
+réutilisabilité des modèles analytiques sur l'ensemble des sites, grâce à une orchestration combinant décomposition structurelle
+KKS/RDS-PP, matching exact et partiel par composants, analyse sémantique via LLM, recherche vectorielle par embeddings, et
+une coordination intelligente assurée par LangGraph.
+• Décomposition structurelle KKS / RDS-PP
+• Matching exact & partiel par composants
+• Analyse sémantique par LLM
+• Recherche vectorielle par embeddings
+• Orchestration intelligente via LangGraph
+Siemens Energy est l'un des leaders
+mondiaux des technologies de l'énergie
+: turbines, générateurs, réseaux et
+solutions de transition énergétique
+déployés dans des centrales du monde
+entier.
+
+-- 46 of 113 --
+
+54
+P r o c e s s u s
+0 1
+Parsing
+Décomposition structurée KKS
+/ RDS-PP en composants
+hiérarchiques.
+0 2
+Matching
+Correspondance exacte &
+partielle par composants dans
+l'ATL.
+0 3
+Sémantique
+Analyse du sens de la
+description par LLM.
+0 4
+Vectoriel
+Similarité par embeddings,
+même descriptions
+divergentes.
+0 5
+Orchestration
+LangGraph choisit
+dynamiquement la bonne
+stratégie.
+S y n t h è s e d e l a v a l e u r
+O U T P U T
+Sortie de la solution
+• Signaux alignés sur le référentiel standard ATL
+• Mapping automatisé à ~80 % (vs 100 % manuel)
+• Cohérence physique garantie par les filtres
+d'unités
+• Précision maintenue grâce au workflow adaptatif
+V A L E U R C L I E N T
+Bénéfices métiers
+• Coûts d'ingénierie fortement réduits
+• 5élai d'intégration divisé par 5 par centrale
+• aodèles réutilisables entre tous les sites
+• Standardisation, clé de voûte de la
+transformation digitale
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Parsing structurel : KKS / RDS-PP décomposés
+Matching sémantique : score de ressemblance
+robuste
+Recherche vectorielle : similarité par embeddings
+embeddings
+Décision assistée : criticité et verdict en temps réel
+LangGraph : orchestration adaptative des
+stratégies
+stratégies
+UN A GENT IA P OURS IEM ENS ENERGY
+INTELLIGENT SIGNAL MAPPING — LE WORKFLOW DE L'AGENT IA
++ Monitoring des tokens & coûts LLM · cache des mappings déjà calculés · filtres par unité d'ingénierie (°C, bar, A) garantissant la cohérence physique.
+
+-- 47 of 113 --
+
+55
+Mercedes-Benz : POC solution Data Quality basée sur l’IA
+BUSINESS CASE
+Bénéfices client
+• Amélioration proactive de la
+fiabilité des véhicules grâce à la
+détection précoce des anomalies
+dans les données.
+• Accélération de la prise de décision
+métier via des rapports automatisés
+issus d’une surveillance continue de
+la qualité des données.
+Solution Wevioo
+Besoin client
+Mercedes souhaite disposer d’un système automatisé pour surveiller en continu la qualité des données issues des logs
+de ses véhicules. L’objectif est de détecter rapidement les anomalies ou changements structurels, d’identifier les
+problèmes potentiels, et de permettre aux équipes d’en tirer des conclusions opérationnelles et de créer des cas
+d’usage métier pertinents basés sur des rapports fiables.
+Collecte des données :
+• Intégration avec les API du système de gestion de flotte Mercedes pour extraire les logs des véhicules.
+Exploration et préparation des données :
+• Utilisation de Python pour l’analyse exploratoire et la transformation des données.
+Surveillance automatisée et détection d’anomalies :
+• Mise en place de Collibra pour :
+• Le monitoring automatisé de la qualité des données.
+• La détection d’anomalies basée sur l’LA.
+• L’envoi de notifications en cas de dérive.
+aercedes: un constructeur automobile
+mondial de premier plan, reconnu pour
+son innovation technologique, sa qualité
+de fabrication et son engagement dans
+la transformation numérique
+
+-- 48 of 113 --
+
+56
+• Configuration de l'environnement Kubeflow pour l'entraînement du modèle, basé sur Sentence Transformers
+• Développement et entraînement du modèle de recommandation contextuel avec Kubeflow
+• Développement d'une API pour permettre l'intégration fluide du système de recommandation dans les applications
+BMW Group et Intégration dans un conteneur Docker
+• Déploiement sur AWS, en utilisant Amazon ECS
+• Mise en place d'un workflow GitHub pour la gestion des versions
+• Automatisation des tests (unitaire, intégration et end-to-end) et du déploiement avec GitHub Actions
+• Configuration d'un pipeline CI/CD pour assurer une intégration continue
+• Surveillance continue du modèle en production sur AWS
+• Documentation complète pour faciliter la maintenance et les mises à jour
+BMW Group – [ML/MLOPS] Recommandation contextuelle
+de contenu multimédia
+BUSINESS CASE
+• BMW Group, à travers ses marques
+emblématiques telles que BMW, Mini
+et Rolls-Royce, offre une gamme
+diversifiée d'automobiles et de
+motocyclettes, incarnant l'excellence,
+l'innovation et le raffinement dans
+l'industrie automobile de luxe.
+Bénéfices client
+• Personnalisation Avancée : des
+recommandations hautement
+personnalisées avec le modèle contextuel
+améliorant ainsi l'expérience utilisateur.
+• Efficacité Opérationnelle : Automatisation
+du cycle de vie du modèle avec des
+technologies ML/MLOPS, réduisant les coûts
+opérationnels et assurant une gestion
+évolutive sur AWS.
+Solution Wevioo
+Besoin client
+• Développement d'un système de recommandation
+contextuelle de contenu multimédia intégrant les
+technologies d'apprentissage automatique
+(ML/MLOPS) pour répondre aux besoins de BMW
+Group Allemagne.
+
+-- 49 of 113 --
+
+57
+Mitsubishi : Mise en place de chatbot intelligent
+BUSINESS CASE
+Bénéfices client
+• Réduction significative des sollicitations
+support grâce à un assistant intelligent
+capable de traiter automatiquement les
+demandes récurrentes et les problèmes
+techniques courants.
+• Accès rapide et autonome à
+l’information produit, même sur des
+documents complexes, améliorant
+l’expérience utilisateur et la satisfaction
+client.
+Besoin client
+Il s’agit de la mise en place d'un chatbot intelligent capable de répondre aux questions techniques relatives aux
+appareils électriques de Mitsubishi Electric Europe. L’objectif est de faciliter l’accès à l’information pour les clients et les
+équipes internes, tout en réduisant les réclamations et les questions répétitives, notamment en assistance technique.
+Mitsubishi Electric Europe : acteur
+majeur de l’industrie électrotechnique,
+spécialisé dans les solutions et
+équipements électriques pour
+l’automatisation industrielle, le
+bâtiment et les systèmes d’énergie.
+La solution repose sur une application backend développée avec
+FastAPI et déployée dans un environnement Azure Cloud complet.
+Elle comprend deux fonctionnalités principales :
+• Un chat généraliste pour répondre aux questions sur les
+appareils Mitsubishi Electric.
+• Un mode troubleshooting interactif pour guider l’utilisateur
+dans la résolution de problèmes, réduisant ainsi les demandes
+d’assistance répétitives.
+Pour alimenter ce chatbot, un pipeline intelligent d’indexation a
+été mis en place afin de traiter les documents techniques
+complexes (PDF longs, tableaux, schémas, images, etc.) et garantir
+la qualité des données exploitées par l’IA.
+Composants principaux de l’architecture (chatbot + pipeline) :
+• FastAPI : application backend du chatbot.
+• Azure Container Registry & Container Apps : pour le
+packaging et le déploiement des services.
+• Azure DevOps CI/CD : automatisation des tests, build Docker,
+et déploiement continu.
+• Azure Blob Storage : stockage centralisé des documents
+techniques.
+• Azure Document Intelligence : extraction de contenu
+structuré à partir de documents (textes, tableaux, images).
+• Prétraitement des données : découpage sémantique
+(chunking), nettoyage, vectorisation.
+• Azure AI Search : recherche sémantique sur les chunks
+vectorisés.
+• Azure OpenAI : génération des réponses à partir des données
+indexées.
+• Azure Cosmos DB : base de données pour les métadonnées et
+les logs.
+• Azure Service Bus : orchestration des tâches asynchrones
+dans le pipeline.
+• Azure Application Insights + OpenTelemetry : monitoring,
+traçabilité et performance.
+
+-- 50 of 113 --
+
+58
+Extraction intelligente des contrats
+BUSINESS CASE
+Bénéfices client
+Accès immédiat aux infos contractuelles
+dans le CRM
+Recherche avancée par client, produit, date,
+filiale, pays
+Données fiabilisées malgré les fusions &
+acquisitions
+Temps de préparation commerciale et
+d'audit fortement réduit
+Traçabilité complète de l'origine des
+données
+Besoin client
+■ tour alimenter son nouveau CRa unifié, SBS devait intégrer 50 000 contrats t5C accumulés sur plusieurs années — d'une
+hétérogénéité extrême (modèles issus de fusions/acquisitions, typologies Licence, aaintenance, SaaS, Cloud…) et dispersés sur
+plusieurs dépôts Sharetoint multi-pays. La recherche manuelle dans ces milliers de documents était chronophage, non traçable
+et non scalable.
+■ L'objectif : transformer ce patrimoine en données structurées et fiables, exploitables dans le CRa avec traçabilité complète vers
+les sources.
+Sopra Banking Software (SBS) est un
+éditeur mondial de solutions logicielles
+pour le secteur bancaire et financier.
+Filiale du groupe Sopra Steria, SBS équipe
+des centaines de banques et institutions
+financières dans le monde en cœur
+bancaire, financement, paiements et
+conformité.
+Wevioo a conçu un pipeline en 5 étapes, du PDF brut à la
+donnée CRM exploitable.
+1. Chargement : ingestion automatisée des 50 000 PDF
+depuis les dépôts SharePoint multi-pays via connecteurs
+API, avec normalisation des formats et dé-duplication.
+2. Reconnaissance & normalisation : extraction du texte par
+OCR (scans et manuscrits) puis structuration
+sémantique des champs contractuels (client, produit,
+dates, montants) par LLM, robuste à l'absence de
+modèle unique.
+3. Matching & enrichissement : croisement avec les
+référentiels clients/produits via matching intelligent
+(résolution d'entités, fuzzy matching et scoring de
+ressemblance) tolérant aux variations issues des
+fusions/acquisitions.
+4. Contrôle & validation : détection d'anomalies et human-
+in-the-loop tracé pour la levée de doute sur les cas à
+faible confiance
+5. Injection & archivage : alimentation automatique du CRM
+(payload structuré) avec lien tracé vers le PDF source —
+le tout orchestré, monitoré et entièrement auditable.
+
+-- 51 of 113 --
+
+59
+V A L E U R C L I E N T
+Bénéfices métiers
+• Accès immédiat aux informations contractuelles dans le CRM via des
+métadonnées exploitables (fin du parcours manuel des PDF)
+• Recherche avancée et rapide par client, produit, date, filiale, pays, type
+de contrat
+• Unification et fiabilisation des données issues de fusions/acquisitions
+• Réduction drastique du temps de préparation commerciale et de réponse
+aux audits
+• Traçabilité complète des origines des données
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Vision & OCR : extraction et normalisation sémantique de champs
+complexes, même sur des modèles hétérogènes
+Matching intelligent : score de ressemblance robuste pour gérer les
+variations de raisons sociales / noms commerciaux
+Orchestration multi-modèles : adaptation automatique à la diversité
+des typologies produits et des filiales
+Contrôle assisté : détection d’anomalies, suggestion de
+correspondance avec les référentiels
+Human-in-the-loop : validation / correction tracée avant injection
+définitive
+SBS : SOPRA BANKING SOFTWARE
+EXTRACTION INTELLIGENTE DES CONTRATS
+C O N T E X T E & E N J E U X
+C L I E N T
+• Nouveau CRa : mise en place d’un système d’information unifié,
+nécessitant d’enrichir les données historiques pour exploiter
+pleinement l’outil.
+• Volume massif : 50 000 contrats PDF issus de plusieurs années
+d’activité SBS — intégrer dans le CRa.
+• Hétérogénéité extrême :
+• Multiplicité des modèles de contrat (héritage de multiples fusions
+et acquisitions), absence de modèle unique.
+• Variété des typologies produits : Licence, Maintenance, Service,
+SAS, Cloud, etc.
+• Complexité organisationnelle : données éparpillées sur plusieurs
+dépôts SharePoint, dans plusieurs pays.
+• Problématique actuelle : impossibilité de rechercher efficacement
+dans le CRM ; les équipes doivent parcourir manuellement des
+milliers de PDF pour trouver une information contractuelle (client,
+produit, date, échéance). Cette méthode est chronophage, non
+traçable et non scalable
+
+-- 52 of 113 --
+
+60
+0 1
+Chargement
+Connexion aux multiples dépôts
+SharePoint (multi-pays) et
+ingestion des 50 000 contrats PDF
+scannés.
+0 2
+Reconnaissance &
+Normalisation
+Extraction des métadonnées par
+hCR + LLa.
+5éfi : multiplicité des modèles
+(fusions/acquisitions), écriture
+manuscrite, absence de template
+unique
+0 3
+Matching &
+Enrichissement
+Croisement avec le référentiel
+clients (score de ressemblance
+sur raison sociale / nom
+commercial) et le référentiel
+produits (licence, maintenance,
+service, SAS, cloud, etc.).
+0 4
+Contrôle & Validation
+Vérification de cohérence, levée
+de doute assistée, préparation du
+payload d’injection.
+0 5
+Injection CRM & Archivage
+Alimentation automatique du
+nouveau CRM, avec lien tracé
+vers le PDF source et piste
+d’audit.
+O U T P U T
+• Cichier d’enrichissement structuré (WShN/XaL/Excel) prêt
+pour le CRM
+• Score de confiance par champ (nom client, produit, date,
+montant, etc.)
+• Log de matching client/produit avec alerte en cas de faible
+ressemblance
+• Tableau de bord de suivi des 50 000 contrats traités
+• Lien tracé entre le contrat PDF et les données injectées
+SBS : SOPRA BANKING SOFTWARE
+EXTRACTION INTELLIGENTE DES CONTRATS
+I N P U T
+• Volume documentaire : 50 000 contrats PDF issus de
+plusieurs années d’activité SBS
+• Référentiels métier sous forme d’AtL
+• Base clients (raison sociale, nom commercial,
+identifiants)
+• Catalogue produits (nomenclatures et familles)
+
+-- 53 of 113 --
+
+61
+Démo
+EXTRACTION INTELLIGENTE DES CONTRATS
+
+-- 54 of 113 --
+
+62
+Processus d’entrée en relation : e-KYC
+BUSINESS CASE
+• Tunisie Leasing & Factoring est un
+établissement de financement
+spécialisé leader dans son secteur.
+Créé depuis 1984, il a toujours
+essayé de tirer avantage de la
+technologie pour améliorer
+l’expérience de ses clients
+Bénéfices client
+• Automatiser les travaux de mises
+à jour de la fiche KYC du client en
+vue d’automatiser — terme sa
+prise en charge et alimentation du
+système dans le cadre d’une
+entrée en relation et sa mise à
+jour full digitale
+Solution Wevioo
+Besoin client
+• TLC souhaite implémenter un applicatif utilisant des agents LA permettant
+l’automatisation des contrôles des fiches YYC pour s’assurer de leur conformité par
+rapport aux exigences légales et réglementaires.
+• TLC dispose de 4 modèles de fiches YYC avec une partie commune — toutes les
+fiches et quelques spécificités d’un modèle — un autre :
+• Ciches YYC Clients tersonnes aorales ;
+• Ciches YYC Clients tersonnes thysiques ;
+• Ciches YYC Repreneurs tersonnes aorales ;
+• Ciches YYC Repreneurs tersonnes thysiques.
+1. Analyse fonctionnelle et conception technique de la plateforme
+• L’Agent LA est en charge de réaliser l’hCR des fiches YYC
+scannée
+• Extraire les différentes rubriques champs par champs
+• Contrôler la cohérence des valeurs de champs leurs
+valeurs saisies sur l’ERt leasing ou factoring (indicateur
+de ressemblance pour les champs texte)
+• troposer le niveau de criticité pour les écarts
+• troposer une décision pour le contrôle de la fiche
+champs par champs
+• troposer la décision de validation de la fiche.
+2. 5éveloppement de l’LA Agentic en charge de l’analyse des états financiers
+
+-- 55 of 113 --
+
+63
+P r o c e s s u s
+0 1
+Chargement
+Ciche YYC t5C + sélection du
+client (Leasing / Cactoring)
+0 2
+Reconnaissance
+Extraction structurée des champs
+par OCR & IA
+Défit : Ecriture manuscrite
+0 3
+Contrôles
+Comparaison aux données ERP,
+score de ressemblance, criticité
+0 4
+Validation
+Forçage tracé, commentaires
+obligatoires, jugement global
+0 5
+Archivage
+Stockage sécurisé, piste d'audit,
+export PDF de l'état
+S y n t h è s e d e l a v a l e u r
+O U T P U T
+Sortie de la solution
+• Écran de validation interactif champ par champ
+(résultat, criticité, ressemblance)
+• Verdict global automatique : « Ciche YYC conforme »
+ou « non conforme »
+• État t5C imprimable avec utilisateur et horodatage
+• Base de données traçable avec piste d'audit et flag de
+conformité
+V A L E U R C L I E N T
+Bénéfices métiers
+• Conformité renforcée aux exigences KYC et LCB-FT
+• Productivité accrue : forte réduction du temps de
+contrôle manuel
+• Fiabilité homogène quel que soit le modèle de
+fiche
+• Traçabilité complète et piste d'audit consolidée
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Vision & OCR : extraction des fiches scannées
+Matching sémantique : score de ressemblance
+robuste
+Agents IA : orchestration des contrôles
+Décision assistée : criticité et verdict en temps réel
+Human-in-the-loop : forçage tracé des faux écarts
+Processus d’entrée en relation : e-KYC
+CONTRÔLE AUTOMATISÉ DES FICHES KYC - TLF
+
+-- 56 of 113 --
+
+64
+CONTRÔLE AUTOMATISÉ DES FICHES KYC - TLF
+Démo
+
+-- 57 of 113 --
+
+65
+Conception et mise en place d’un Agent IA pour l’analyse des agrégats
+financiers
+BUSINESS CASE
+• Tunisie Leasing & Factoring (TLF) est un
+acteur majeur du financement en
+Tunisie, spécialisé dans les solutions de
+leasing et de factoring destinées aux
+entreprises et particuliers. Forte de
+plusieurs décennies d’expérience, TLC
+s’engage dans une dynamique de
+digitalisation afin d’offrir — ses clients une
+expérience fluide et moderne.
+Bénéfices client
+•Réduction du temps nécessaire à
+l’analyse crédit
+•Augmentation de la productivité par
+analyste
+•Iarmonisation du contenu de l’analyse
+•Amélioration de la satisfaction client et
+collaborateur
+Solution Wevioo
+Besoin client
+• TLC souhaite développer un agent LA capable d’analyse les agrégats et ratios financiers en vue d’automatiser l’analyse financière et
+harmoniser son contenu. Cet Agent LA sera l’assistant de l’analyse de crédit qui aura la possibilité de validé l’analyse proposée par l’Agent
+IA
+• Wevioo accompagne Tunisie Leasing & Cactoring dans la conception et la mise en œuvre d’un projet innovant — base d’Agent LA :
+• La définition des agrégats et Ratios à analyser.
+• Le choix de la LLM la plus appropriée dans une logique Open Source, On Premise
+• Le développement de l’Agent LA dans une logique agile, ajustement du choix de le LLa.
+• La mise en place du projet est en cours.
+
+-- 58 of 113 --
+
+66
+Conception et mise en place d’un Agent IA pour l’analyse des agrégats
+financiers
+BUSINESS CASE
+• Tunisie Leasing & Factoring (TLF) est un
+acteur majeur du financement en
+Tunisie, spécialisé dans les solutions de
+leasing et de factoring destinées aux
+entreprises et particuliers. Forte de
+plusieurs décennies d’expérience, TLC
+s’engage dans une dynamique de
+digitalisation afin d’offrir — ses clients une
+expérience fluide et moderne.
+Bénéfices client
+•Nouveau canal digital de vente favorisant
+l’acquisition et la fidélisation clients.
+•Réduction du temps de traitement et
+automatisation partielle des processus.
+•Expérience client modernisée et alignée
+avec les standards du digital bancaire.
+•Base solide pour l’évolution future du
+portail vers d’autres produits de TLC.
+L’analyse des agrégats et ratios financiers calculés par l’application est automatisée — travers l’agent LA qui apporte une
+analyse très poussée dans le cadre des données disponibles au niveau de l’application tout en assurant l’harmonisation
+du texte pour l’ensemble des dossiers
+
+-- 59 of 113 --
+
+67
+AGENT IA D'ANALYSE AFFACTURAGE
+BUSINESS CASE
+• Crédit Agricole Leasing & Factoring
+(CAL&F) est la filiale de financement
+spécialisé du groupe Crédit Agricole,
+dédiée au crédit-bail et à l'affacturage.
+• Comptant parmi les leaders français de
+l'affacturage et du leasing, elle finance
+entreprises, professionnels et acteurs
+publics en France et à l'international.
+Bénéfices client
+•Sécurisation du risque de non-paiement —
+la cession
+•5écision quasi-instantanée vs traitement
+manuel ralenti
+•Scalabilité : industrialisation des dossiers
+de cession
+•Conformité et traçabilité renforcées pour
+l'auditeur
+Solution Wevioo
+Besoin client
+• Le traitement des demandes d'affacturage repose sur l'analyse manuelle de documents hétérogènes - factures et contrats en formats
+multiples (t5C, tND, WtD) — que les équipes doivent extraire, vérifier et rapprocher une — une. Chaque dossier suppose de contrôler la
+conformité juridique (mentions légales) et contractuelle (contrat-cadre), puis de vérifier le plafond et l'encours du débiteur avant de
+statuer sur l'éligibilité et le montant finançable. Ce processus chronophage ralentit la prise de décision, expose au risque de non-
+paiement — la cession et complique l'industrialisation des dossiers ainsi que la traçabilité.
+• Wevioo a conçu un agent IA d'analyse d'affacturage orchestrant l'ensemble du traitement en cinq étapes : dépôt des documents, lecture OCR,
+contrôle de conformité, vérification du solde client et décision. La solution combine Vision & OCR pour extraire les données de factures et
+contrats multi-formats, des vérifications IA juridiques, contractuelles et de solvabilité, et une décision assistée calculant en temps réel le statut
+d'éligibilité (accepté, partiel ou refusé) et le montant finançable. Un chatbot explicatif justifie chaque décision et conserve une piste d'audit
+complète des contrôles et du raisonnement. Résultat : une décision quasi-instantanée là où le traitement manuel était ralenti, une sécurisation
+du risque de non-paiement, une conformité et une traçabilité renforcées, et une réelle scalabilité pour industrialiser les dossiers de cession.
+
+-- 60 of 113 --
+
+68
+CA L&F : Crédit agricole Leasing & Factoring
+USE CASE : AGENT IA D'ANALYSE AFFACTURAGE
+P r o c e s s u s
+0 1
+Dépôt
+Upload facture + contrat (t5C, tND,
+WtD)
+0 2
+Lecture OCR
+Extraction structurée des données par
+OCR & IA
+Défi : formats hétérogènes
+0 3
+Conformité
+Validation juridique (mentions légales)
+& contractuelle (contrat-cadre)
+0 4
+Solde client
+Vérification du plafond et de l'encours
+du débiteur
+0 5
+Décision
+Statut d'éligibilité + montant finançable
++ justification
+S y n t h è s e d e l a v a l e u r
+O U T P U T
+Sortie de la solution
+• Statut d'éligibilité : accepté, partiel ou refusé
+• aontant finançable calculé en temps réel
+• Chatbot explicatif justifiant chaque décision
+• tiste d'audit complète : contrôles &
+raisonnement tracés
+V A L E U R C L I E N T
+Bénéfices métiers
+• Sécurisation du risque de non-paiement à la
+cession
+• Décision quasi-instantanée vs traitement
+manuel ralenti
+• Scalabilité : industrialisation des dossiers de
+cession
+• Conformité et traçabilité renforcées pour
+l'auditeur
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Vision & OCR : extraction des factures et
+contrats multi-formats
+Vérifications IA : juridique, contractuel et
+solvabilité
+Décision assistée : éligibilité et montant
+finançable en temps réel
+Agents IA : orchestration du pipeline en 5
+étapes
+Explicabilité : chatbot qui justifie chaque
+décision 1
+
+-- 61 of 113 --
+
+69
+
+-- 62 of 113 --
+
+70
+ASSURANCES MAGHREBIA est
+une compagnie d’assurance et de
+réassurance tunisienne de
+référence reconnue pour son
+expertise solide, son offre de
+produits innovants et son réseau
+de proximité à travers la Tunisie.
+Bénéfices client
+• Accès rapide à l'information;
+• Réponses précises et pertinentes;
+• Adaptabilité aux besoins;
+• Gain de temps;
+Solution Wevioo
+Besoin client
+• L'objectif principale de la plateforme est de fournir un accès rapide aux et sécurisé aux documents et informations, afin d’assister
+efficacement les collaborateurs et responsables de aaghrebia.
+• Use case 1 : Les collaborateurs ont besoin d’un accès rapide et sécurisé aux documents pertinents pour accomplir leurs tâches
+efficacement, sans perdre de temps — rechercher manuellement dans plusieurs sources internes et externes.
+• Use case 2 : Les responsables spécialisés ont besoin de créer rapidement des documents personnalisés(rapports).
+• Use case 3 : Les responsables juridiques ont besoin de rechercher rapidement des informations critiques et de vérifier les clauses des
+contrats.
+• MAGH_IA est une plateforme DEN LA basée sur Llama 3.1, exploitant les modèles de langage via une approche RAD (Retrieval Augmented
+Deneration) pour créer des applications alimentées par les connaissances, documents et données spécifiques de l’assurance.
+• La plateforme combine trois fonctions principales : chatbot, génération de documents et vérification des clauses de contrats, répondant aux
+besoins des différents profils utilisateurs.
+• Pour les collaborateurs, aADI_LA permet un accès rapide et sécurisé aux documents et informations pertinentes, avec une recherche
+contextuelle avancée pour faciliter le travail quotidien.
+• Pour les responsables spécialisés, la plateforme automatise la création de rapports réduisant le temps et les efforts liés — la production manuelle.
+• Pour les responsables juridiques, aADI_LA propose un assistant spécialisé capable de rechercher les informations critiques et de vérifier
+automatiquement les clauses des contrats pour assurer conformité et sécurité.
+Implémentation de 3 uses cases GEN IA autour de la plateforme
+MAGH_IA
+BUSINESS CASE
+
+-- 63 of 113 --
+
+71
+
+-- 64 of 113 --
+
+72	72
+
+-- 65 of 113 --
+
+73
+Ciliale de GROUPAMA, STAR (La
+Société Tunisienne d'Assurances et
+de Réassurance) est le leader sur le
+marché de l’assurance en Tunisie
+depuis plus de 60 ans.
+Elle offre une gamme de produits
+complète et variée
+Bénéfices client
+• Accès rapide à l'information;
+• Réponses précises et pertinentes;
+• Adaptabilité aux besoins;
+• Disponibilité 24/7;
+• Facilité d'utilisation;
+• Monitoring.
+Solution Wevioo
+Besoin client
+• L’objectif principal de l’application — concevoir est d'apporter une assistance prompte aux collaborateurs de l’entreprise tout en contribuant — la
+réduction significative du nombre de tickets DLtL.
+• Les collaborateurs ont besoin d'un accès rapide et facile — l'information pertinente pour résoudre leurs problèmes et répondre — leurs questions
+sans avoir — ouvrir un ticket DLtL.
+• Les collaborateurs attendent des réponses précises et pertinentes — leurs requêtes, fournies par la base de connaissances grâce — l'intelligence
+artificielle générative, pour éviter les délais associés — l'attente d'une assistance humaine. Lls ont besoin d’accéder — des informations
+constamment mises — jour et pertinentes pour leurs besoins actuels.
+• Weensight V1.0 est une plateforme d'apprentissage machine distribué. Elle prend en charge les frame-works big data Iadoop et Spark. Elle
+intègre également les environnements tython, Wava, R, Scala et Wson.
+• La plateforme peut jouer le rôle — la fois d’un Chatbot et d’un trivate 5ocument Chat.
+• Elle offre un chatbot qui est un programme informatique conçu pour simuler une conversation avec des êtres humains. Ll utilise généralement des
+techniques d'LA, notamment le NLt et l'apprentissage automatique, pour comprendre et interpréter les requêtes des utilisa-teurs et leur fournir
+des réponses pertinentes.
+• Le private document chat est un assistant de recherche développé par le biais de l'LA qui aide l’utilisateur — trouver des réponses — ses questions
+sur ses documents, alimentés par la plateforme.
+Développement d’une solution de GEN IA pour STAR
+BUSINESS CASE
+
+-- 66 of 113 --
+
+74
+Bénéfices client
+• Optimiser la gestion de la relation
+client;
+• Amélioration de la rétention;
+• Personnalisation des offres.
+• Maximisation de l'efficacité des
+ressources marketing;
+• Meilleure compréhension des besoins
+client.
+Solution Wevioo
+Besoin client
+• Use Case 1: Segmentation des clients dits « dormants », c’est-—-dire ceux qui n’ont pas changé de conditions d’assurance (les limiter en nombres d’années
+par exemple. Ll s’agit de diviser la base de clients en groupes ou segments en fonction de certaines caractéristiques spécifiques liées — leurcomportement ou
+— leur historique d'interaction avec la STAR. Les clients dormants sont ceux qui n'ont pas apporté de changements — leurs conditions d'assurance pendant
+une période bien déterminée. Lls sont souvent considérés comme étant moins actifs ou engagés.
+• Use Case 2: Segmentation des assurés (population — préciser) pour en dégager des portraits robots (des personas) afin de leur proposer les Next Best hffers.
+Ll s’agit d’une stratégie marketing permettant de segmenter les assurés, en fonction de leurs caractéristiques, besoins et comportements pour créer des
+portraits robots (dits également des personas).Ainsi, la STAR pourrait personnaliser leurs offres et de proposer des produits et services adaptés — chaque
+segment.
+Filiale de GROUPAMA, STAR (La
+Société Tunisienne d'Assurances et
+de Réassurance) est le leader sur le
+marché de l’assurance en Tunisie
+depuis plus de 60 ans.
+Elle offre une gamme de produits
+complète et variée
+Clustering et ciblage des clients pour ASSURANCES STAR
+BUSINESS CASE
+
+-- 67 of 113 --
+
+75
+À FAIRE PAR ELYES TARMIZ
+
+-- 68 of 113 --
+
+76
+CIMF – Clustering Avancé des Déclarations des Impôts
+BUSINESS CASE
+• Le Centre Informatique du Ministère des
+Finances de Tunisie contribue à renforcer
+l'efficacité opérationnelle, la sécurité des
+données et la modernisation des processus
+financiers, jouant ainsi un rôle clé dans le
+soutien aux objectifs et aux missions du
+ministère.
+Bénéfices client
+• Optimisation des contrôles fiscaux grâce à
+une classification précise.
+• Réduction des erreurs humaines et
+économie de temps.
+• Gestion ciblée des contribuables pour
+prévenir les fausses déclarations.
+• Amélioration de la conformité fiscale et
+évolutivité de la solution.
+Solution Wevioo
+Besoin client
+• Implémentation d'une solution basée sur le Machine Learning pour anticiper et
+optimiser le contrôle des fausses déclarations fiscales, avec pour objectif la
+classification efficace des contribuables en groupes homogènes en vue d'une
+gestion plus ciblée et efficace
+• Collecte et Préparation des Données : Rassemblement et prétraitement des données fiscales
+nécessaires
+• Choix du Modèle de Machine Learning : Sélection d'un modèle de clustering adapté
+• Entraînement du Modèle : Utilisation des données préparées pour entraîner le modèle, en
+optimisant son ajustement.
+• Mise en Place de la Solution : Lntégration de la solution dans le système existant, assurant une
+interaction fluide avec les processus de contrôle fiscal.
+• Déploiement : aise en œuvre de la solution pour une utilisation opérationnelle.
+• Évaluation et Maintenance : Établissement d'un processus d'évaluation continue et mise en
+place de procédures de maintenance régulières pour assurer la stabilité du modèle.
+Analyse Exploratoire
+des données
+Évaluation
+
+-- 69 of 113 --
+
+77
+• Collecte de Données : Rassemblement et prétraitement des données clients et produits
+• Choix du Modèle de Recommandation Hybride : Sélection d'un modèle hybride intégrant des approches
+collaboratives et basées sur le contenu pour la génération de recommandations
+• Entraînement du Modèle : Utilisation des données pour entraîner le modèle hybride, optimisant sa capacité à
+générer des recommandations précises et diversifiées
+• Intégration dans l'Infrastructure Retail : Implantation de la solution hybride dans l'infrastructure existante des
+retailers, garantissant une intégration fluide
+• Test et Validation : Validation des recommandations générées par le modèle hybride pour assurer leur
+pertinence et leur efficacité
+• Documentation Complète : Créer une documentation détaillée pour faciliter la maintenance future et la
+compréhension du système.
+Carrefour – Optimisation des Ventes au Détail :
+Recommandation de produit
+BUSINESS CASE
+• Carrefour est un groupe français du
+secteur de la grande distribution,
+pionnier du concept d'hypermarché
+en 1963
+Bénéfices client
+• Personnalisation Avancée : 5es
+recommandations adaptées aux
+besoins spécifiques de chaque client.
+• Optimisation des Ventes :
+aaximisation des opportunités de
+vente grâce — des suggestions
+précises et diversifiées.
+• Efficacité Opérationnelle :
+Automatisation pour libérer du
+temps, renforcer la fidélité client, et
+améliorer l'expérience d'achat.
+Solution Wevioo
+Besoin client
+• Développer une solution de recommandation basée sur le Machine
+Learning, permettant d'offrir aux clients de Carrefour des suggestions
+de produits personnalisées, diversifiées et précises, avec pour objectif
+d'optimiser nos ventes et d'améliorer l'efficacité opérationnelle.
+
+-- 70 of 113 --
+
+78
+• Intégration des Technologies OCR et Computer Vision pour
+numériser précisément les rapports
+• Développement du Module d'Extraction de des sections des
+rapports
+• Classification Automatique avec l'IA pour classifier
+automatiquement les constats d'audits par type et identifier
+automatiquement les bonnes pratiques et les vulnérabilités
+• Développement du Module d'Indexation et de recherche avancée
+pour indexer tout le contenu des rapports, optimisé par un
+thésaurus pour une recherche tolérante aux fautes de frappe
+• Optimisation Continue basés sur les retours utilisateurs et les
+performances du système en production.
+ANCS – SmartDoc : Vérification automatique des rapports
+d’audit de sécurité informatique
+BUSINESS CASE
+• ANCS (anciennement L’ANSL), en tant que
+coordinateur national, œuvre — développer
+un climat de confiance des technologies de
+l’information pour rassurer les utilisateurs,
+l’état et les investisseurs et protéger les
+citoyens et les biens publics et privés contre
+toute menace cybernétique.
+Bénéfices client
+• Optimisation du Temps : Numérisation
+rapide et classification automatisée pour des
+processus plus rapides et efficaces
+• Précision et Fiabilité : Ldentification précise
+des constats d'audits, réduisant les erreurs et
+renforçant la fiabilité des résultats.
+• Accès Rapide : Lndexation complète et
+recherche avancée pour un accès instantané
+et précis — l'information.
+Solution Wevioo
+Besoin client
+• Développer un module de numérisation avancé doté de technologies OCR et Computer Vision, capable d'identifier
+de manière précise les sections clés des rapports.
+• Ce module doit également être pourvu d'une intelligence et d'une capacité d'apprentissage, lui permettant de
+classifier automatiquement les constats d'audits par type, tout en distinguant les bonnes pratiques des
+vulnérabilités.
+
+-- 71 of 113 --
+
+79
+Bénéfices client
+• Amélioration du CA (réduire le manque
+— gagner lié — la sous capitalisation)
+• Standardisation des méthodes de calcul
+de la valeur marchande d’un véhicule
+• Rationalisation du processus de
+souscription : automatisation du calcul
+de la valeur vénale permettant une
+évaluation instantanée et fiable lors de
+la souscription.
+Solution Wevioo
+Besoin client
+• Les compagnies d’assurance en Tunisie sont confrontées à un défi structurel en raison de l’absence d’un référentiel officiel (argus) permettant de
+déterminer de manière homogène la valeur vénale des véhicules. Cette lacune engendre des écarts significatifs dans l’évaluation des véhicules à
+assurer, avec pour conséquences : la sous-capitalisation des contrats, des coûts additionnels liés à l’intervention d’experts, un allongement des
+délais de traitement, ainsi que des divergences d’estimation entre les compagnies.
+• Dans ce contexte, les assureurs, sous l’impulsion de la FTUSA, envisagent la mise en place d’une plateforme centralisée d’évaluation automatique
+des véhicules. Celle-ci s’appuiera sur les caractéristiques techniques des véhicules et exploitera des algorithmes d’intelligence artificielle pour
+garantir des estimations précises, cohérentes et transparentes.
+FTUSA: Fédération tunisienne des
+sociétés d’assurances est une
+association représentant les 15
+entreprises d'assurance et de
+réassurance en Tunisie. Ella pour
+mission principale de faciliter
+l’échange de travaux, d’expertises et
+d’informations entre ses membres
+sur tous les sujets juridiques, fiscaux,
+financiers, techniques et autres
+FTUSA: Mise en place d’une plateforme de prédiction de la
+valeur marchande d’un véhicule
+BUSINESS CASE
+• Construction d’un référentiel automobile : via des robots de scrappings des véhicules et leurs caractéristiques techniques (marque,
+modèle, finition, motorisation, énergie, options, et autres caractéristiques techniques)
+• Développement des robots de scrapping des annonces d’occasion: il s’agit de la collectee quotidienne des données du marché d’occasion
+depuis une vingtaine sites marchands et utilisation des techniques de nettoyage et validation des données. Ce qui a permet de construire
+une base de données riche reflétant les prix du marché
+• Machine Learning : 5éveloppement et tests d’algorithmes de machine Learning permettant d’estimer la valeur marchande d’un véhicule en
+fonction de ces caractéristiques techniques et des prix du marché. tlusieurs modèles et algorithmes ont été testés et comparés avant de
+choisir le meilleur
+• Développement des workflows : aise en place d’une plateforme de gestion des processus et workflow d’évaluation des véhicules
+• Mise en place d’API: développement et intégration d’AtL sécurisés permettant directement aux SL des compagnies d’assurances
+d’interroger la plateforme et obtenir la valorisation
+• Dashboard: aise en œuvre de plusieurs 5ashboards ayant pour vocation de suivre la tendance du marché, suivre l’utilisation de la
+plateforme, monitorer les robots de Scrapping et monitorer la performance des serveurs
+• Évaluation et Maintenance : Établissement d'un processus d'évaluation continue et mise en place de procédures de maintenance régulières
+pour assurer la stabilité du modèle.
+
+-- 72 of 113 --
+
+80
+DÉMO À FAIRE PAR MZS
+
+-- 73 of 113 --
+
+81
+Argus Ennakl – Application d’estimation de la valeur vénale
+d’un véhicule
+BUSINESS CASE
+• Ennakl Automobiles est l'importateur
+officiel et le concessionnaire en
+Tunisie des marques Volkswagen,
+Volkswagen Utilitaires, Audi,
+torsche, SEAT, Škoda et
+Dasweltauto.
+Bénéfices client
+• hbtention rapide et précise de la
+valeur d'un véhicule sans recherche
+manuelle ni consultation de sources
+multiples
+• Réduction des risques d'erreur lors
+de l'estimation du prix d'un véhicule
+• Suivi de l'activité de reprise de
+véhicules d'occasion.
+Solution Wevioo
+Besoin client
+• Ennakl (premier concessionnaire automobile en Tunisie) souhaite établir au plus juste le prix d'une voiture d'occasion (gestion de processus
+de reprise des voitures particuliers) en fonction de ses caractéristiques, en collectant et synthétisant les prix sur les différents sites
+marchands tunisiens.
+• Ces données seront enrichies par d'autres informations liées au marché telles que les variations du prix du neuf, des taxes, de la qualité,
+ainsi que l'historique de l'entretien, l'état général de la voiture et l'historique des transactions pour le même modèle de voitures.
+1. Analyse fonctionnelle et conception technique de la plateforme
+2. 5éveloppement de l’Argus Ennakl
+13 Sites
+marchan
+ds
+Bases de données
+Robots
+Données du neuf
+Robots
+NLP
+Utilisateur	Serveur
+d’applicatio
+n
+• Collecte automatique et quotidienne des annonces de
+vente de véhicules d'occasion et des prix des voitures
+neuves à partir des sites marchands tunisiens.
+• Traitement intelligent (NLP) des données collectées.
+• Estimation de la valeur vénale du véhicule (prix
+technique et prix du marché).
+• Reporting et suivi de l'activité de reprise en utilisant
+l'outil Knowage.
+
+-- 74 of 113 --
+
+82
+Mise en place d’une plateforme intelligente d’évaluation et de scoring
+des CV pour le recrutement
+BUSINESS CASE
+Bénéfices client
+Solution Wevioo
+Besoin client
+• L’équipe RI de Wevioo souhaite disposer d’un outil permettant de gérer efficacement le volume important de CV reçus lors des
+campagnes de recrutement (PFE, stages, emplois) et de limiter la perte de temps sur des tâches à faible valeur ajoutée liées au tri des
+candidatures
+• L’objectif est d’automatiser et de fiabiliser le tri des candidatures grâce — l’LA Dénérative afin d’analyser, évaluer et classer les CV selon
+leur adéquation avec les critères définis par l’équipe RI
+La plateforme Weensight RI proposée par Wevioo permet de :
+• Centraliser et gérer les fiches de stage (sujet du stage, les compétences attendues, durée, etc.) avec possibilité de mise — jour
+(modification ou suppression) — tout moment
+• Lmporter et consulter les CV via une interface simple et structurée.
+• Analyser automatiquement les candidatures en comparant les CV aux exigences des fiches de stage afin de mettre en évidence les
+points forts et les éventuels points — surveiller
+• Attribuer un score de pertinence et générer un résumé de profil grâce — l’LA Dénérative.
+• Exporter les résultats d’évaluation (scores et résumés) au format Excel pour faciliter le partage et l’analyse par l’équipe RI
+• Dain de temps dans le tri des CV
+• 5écisions RI facilitées
+• trocessus de recrutement optimisé
+• Classement intelligent des CV
+• Solution d’intelligence artificielle dédiée —
+l’analyse et au tri automatisé des
+candidatures.
+• Analyse des CV, évaluation de l’adéquation
+profil–poste et classement des candidats
+selon leur pertinence
+• hptimisation du processus de recrutement
+et gain de temps pour l’équipe RI
+
+-- 75 of 113 --
+
+83
+Mise en place d’une plateforme intelligente d’évaluation et de scoring des CV
+pour le recrutement
+P r o c e s s u s
+0 1
+Chargement
+Upload des CV (t5C) + sélection de la
+fiche de poste (tCE, stage, emploi)
+0 2
+Extraction
+Parsing structuré des CV par OCR & IA
+Défi : formats hétérogènes
+0 3
+Analyse
+Comparaison aux exigences de la fiche,
+score d'adéquation profil–poste
+0 4
+Synthèse
+Dénération de résumés : points forts et
+points de vigilance
+S y n t h è s e d e l a v a l e u r
+O U T P U T
+Sortie de la solution
+• Interface de consultation structurée des CV
+importés
+• Score de pertinence par candidat et classement
+automatique
+• Résumé synthétique : points forts & points de
+vigilance
+• Export Excel des scores et résumés pour
+partage RH
+V A L E U R C L I E N T
+Bénéfices métiers
+• Réduction massive du temps de tri manuel des
+candidatures
+• Évaluation objective et homogène sur critères
+RI définis
+• 5étection garantie des meilleurs profils, sans
+perte de talents
+• troductivité RI accrue sur les campagnes tCE,
+stages, emplois
+A P P O R T D E L ' I A
+Ce que l'IA rend possible
+Vision & OCR : extraction des CV en formats
+variés
+Matching sémantique : score d'adéquation
+profil–poste robuste
+LLM génératif : résumés clairs et synthétiques
+Décision assistée : score et classement
+automatiques
+Personnalisation : critères RH adaptables par
+campagne
+1
+
+-- 76 of 113 --
+
+84
+Démo
+WEENSIGHT RH
+
+-- 77 of 113 --
+
+85
+TDF: Mise en œuvre d’une plateforme IA avec un agent autonome :
+Plateforme d’Innovation Ouverte IA (POC)
+BUSINESS CASE
+Bénéfices client
+• Dépôt structuré et interactif des idées
+• Evaluation intelligente par IA
+• Évaluation simplifiée des idées
+• Décisions accélérées
+• Disponibilité 24h/24 et 7j/7
+• Suivi et traçabilité simplifiée
+Solution Wevioo
+Besoin client
+• L'objectif principal est de moderniser et structurer le processus d'innovation au sein du TDF. Aujourd'hui, les échanges d'idées sont
+souvent fragmentés entre courriels et appels, ce qui génère des délais et des contraintes de disponibilité. Le TDF a besoin d'une
+plateforme centralisée et interactive permettant aux investisseurs de soumettre, d'affiner et d'évaluer leurs idées de manière efficace.
+• Les investisseurs ont besoin d'un accompagnement en temps réel pour structurer et renforcer leurs propositions, garantissant ainsi des
+soumissions de meilleure qualité dès le départ. Ils attendent également une évaluation plus rapide et plus cohérente, tout en préservant
+une validation humaine pour assurer la gouvernance, l'alignement stratégique et la précision des décisions. Enfin, un accès 24h/24, un
+suivi transparent des statuts et des retours clairs sont essentiels pour renforcer l'engagement et la confiance dans le processus.
+• La tlateforme LA d'Lnnovation huverte V1.0 est une solution intelligente conçue pour moderniser et structurer le processus d'innovation
+au sein du T5C. Elle remplace les échanges fragmentés par courriels et appels par une plateforme centralisée, interactive et accessible en
+permanence, permettant aux investisseurs de soumettre, d'affiner et d'évaluer leurs idées en toute efficacité. Elle combine l'LA générative,
+des modèles de scoring structurés et une architecture sécurisée pour garantir évolutivité, performance et protection des données.
+• La plateforme s'articule autour de trois composants clés :
+• Assistant de soumission basé sur l'LA – Une interface conversationnelle qui guide les investisseurs pour garantir des
+soumissions structurées et complètes
+• Assistant d'amélioration basé sur l'LA – Renforce la clarté, évalue la faisabilité, identifie les axes d'amélioration et aligne les
+propositions sur les critères d'évaluation prédéfinis
+• aoteur d'évaluation piloté par l'LA – Applique des objectifs de scoring standardisés et génère des notes automatiques ainsi
+que des analyses pertinentes
+• L'LA optimise l'amélioration et l'évaluation des idées, tandis que la validation finale reste assurée par les examinateurs humains du T5C,
+garantissant ainsi gouvernance et alignement stratégique.
+Créé par décret royal en juin 2020, le Fonds
+de Développement Touristique (TDF)
+accompagne l'essor de l'un des secteurs les
+plus dynamiques du Royaume. Doté d'un
+capital de 4 milliards de dollars, il a pour
+mission de faciliter l'accès des investisseurs
+locaux et internationaux aux opportunités
+touristiques à fort potentiel à travers les
+grandes destinations du pays.
+
+-- 78 of 113 --
+
+86
+
+-- 79 of 113 --
+
+87
+
+-- 80 of 113 --
+
+88
+
+-- 81 of 113 --
+
+89
+SODEXCA– Plateforme de Pré-comptabilité
+BUSINESS CASE
+Fondée au Bénin en 2008, SODEXCA est un
+cabinet qui exerce ses activités de manière
+efficace et responsable dans les secteurs où
+il intervient (Audit et Commissariat aux
+comptes – Expertise comptable – Conseil
+juridique et fiscal – Formations et Etudes &
+Conseils).
+Bénéfices client
+• Renforcer son image d’acteur
+innovant auprès de ses clients et
+partenaires.
+• Dagner de nouveaux marchés en
+se démarquant par une offre
+technologique avancée
+Solution Wevioo
+Besoin client
+Consciente des opportunités offertes par l’LA, SODEXCA souhaite exploiter ces technologies pour moderniser et optimiser la gestion des activités des Centres
+de Gestion Agréés (CGA). Plus précisément, elle ambitionne d’améliorer la productivité dans les processus de pré-comptabilité et de réduire les risques
+d’erreurs dans les traitements comptables.
+WEVIOO a alors développé une solution basée sur l’AI permettant
+de:
+• Extraire les données clés d'une facture via OCR intelligent
+(fournisseur, montant, date, etc.) à partir de documents
+scannés;
+• Définir des Règles de Classification : Grâce à un jeu de données
+fourni de factures déjà classifiées, analyser et identifier des
+règles permettant d’optimiser la précision des
+recommandations de comptes
+• Offrir une recommandation Comptable Automatique : Proposer
+le compte comptable adapté en fonction des informations
+extraites et à partir d’un historique de données à récupérer
+depuis SYGMEF. Cette recommandation s’appuie sur des
+techniques de Machine Learning
+
+-- 82 of 113 --
+
+90	90
+
+-- 83 of 113 --
+
+91	91
+
+-- 84 of 113 --
+
+92
+ASIN : Mise en œuvre des solutions d’IA: Développement d’un
+socle d’assistants conversationnel et de use cases
+BUSINESS CASE
+• L'ASLN est une agence gouvernementale,
+chargée d'assurer la mise en œuvre
+opérationnelle des programmes et
+projets entrant dans le cadre des
+stratégies de développement des
+services et systèmes d'information
+sécurisés au Bénin.
+Bénéfices client
+• 5isponibilité 24/7 ;
+• Réponses précises et pertinentes ;
+• Cacilité d'utilisation ;
+• aonitoring.
+Solution Wevioo
+Besoin client
+L'objectif principal du projet est d'accélérer le déploiement du prototype GPT BJ, qui permettait de répondre aux questions relatives au code
+général des impôts, au code du numérique, au code du travail et au code pénal du Bénin.
+Le projet consiste à concevoir, développer et intégrer GPT BJ, déployé à la fois sous forme d’un site web autonome et de deux widgets (E-
+frame) embarqués au sein des plateformes d’e-services béninois, afin d’améliorer l’accessibilité et l’accompagnement des usagers.
+WEVIOO est en cours de développement et de
+déploiement d’un assistant unique capable de
+répondre aux questions relatives à 3 cas d'usage:
+• Support & Assistance aux entreprises et aux
+investisseurs;
+• Assistance aux démarches administratives et
+Orientation vers les services gouvernementaux;
+• Assistance unique capable de répondre aux
+questions du citoyen quel que soit le cas d'usage.
+
+-- 85 of 113 --
+
+93
+Démo
+DÉVELOPPEMENT D’UN SOCLE D’ASSISTANTS CONVERSATIONNEL ET
+DE USE CASES
+
+-- 86 of 113 --
+
+94
+DÉMO FR ASIN À FAIRE PAR SOULIEIMA / HEDI
+
+-- 87 of 113 --
+
+95
+APDP : L'autorité au Bénin chargée de la
+protection des données personnelles et
+du respect des lois relatives à la vie
+privée et aux traitements de données.
+WURI : Programme ouest-africain visant
+à fournir une identité unique aux
+populations, afin de faciliter l’accès aux
+services et de renforcer l’intégration
+régionale.
+Bénéfices client
+• Accès rapide à l’information
+• Réponses précises et pertinentes
+• Orientation simple et claire
+• Sensibilisation à la protection des
+données
+Solution Wevioo
+Besoin client
+• Le projet a pour objectif de mettre — disposition une plateforme e-learning spécialisée dans la protection des données.
+• tlutôt qu’une simple plateforme e-learning, WURL/At5t souhaite proposer une expérience permettant un accès plus rapide — l’information et un
+parcours d’apprentissage fluide.
+• WURL/At5t a identifié que les utilisateurs ont besoin d’un accompagnement non seulement pour comprendre les principes de protection des
+données, mais aussi pour naviguer et utiliser la plateforme de manière efficace.
+WEVIOO a développé un chatbot intelligent multilingue et multimodal afin d’améliorer l’expérience des apprenants.
+• Le chatbot est multilingue, prenant en charge le français, l’anglais et le fon.
+• Il est également multimodal, permettant des interactions text-to-text et speech-to-speech pour offrir une expérience plus naturelle et intuitive.
+• Par ailleurs, la solution intègre un module de Dashboarding, offrant aux administrateurs et aux responsables une visibilité en temps réel sur
+l’activité des utilisateurs et l’utilisation du chatbot, afin de faciliter le suivi et la prise de décision.
+Le chatbot propose deux cas d’usage principaux :
+• Cas d’usage 1 : Sensibilisation à la protection des données : Les utilisateurs peuvent poser des questions et obtenir des réponses rapides, ce qui lui
+permet de mieux comprendre la protection des données personnelles.
+• Cas d’usage 2 : Assistance à l’utilisation de la plateforme : Le chatbot guide les utilisateurs pour naviguer et utiliser la plateforme de manière
+efficace.
+WURI/APDP : Mise en place d’une plateforme e-learning sur la
+protection des données avec un chatbot intelligent
+BUSINESS CASE
+
+-- 88 of 113 --
+
+96
+DÉMO FR SURI À FAIRE PAR SOULIEIMA / HEDI
+
+-- 89 of 113 --
+
+97
+Implémentation d’une solution d’IA pour la gestion intelligente et
+centralisée des interactions issues des réseaux sociaux *
+BUSINESS CASE
+Bénéfices client
+• Disponibilité 24/7 ;
+• Centralisation des interactions
+sociales ;
+• triorisation intelligente des
+messages ;
+• Réponses rapides et contextualisées
+;
+• Supervision en temps réel ;
+Solution Wevioo
+Besoin client
+• L’objectif du projet est d’optimiser la gestion des interactions sur les réseaux sociaux grâce — une centralisation et une priorisation
+intelligente des commentaires.
+• Ll consiste — déployer une solution d’LA capable de collecter les messages multicanaux, d’en analyser l’urgence et le sentiment, puis de
+générer des réponses contextualisées afin d’améliorer la réactivité, la qualité des échanges et la maîtrise de l’e-réputation.
+• Cette initiative contribue — réduire les délais de traitement et — renforcer l’efficacité des équipes communication et relation client.
+tlateforme d’LA dédiée — la gestion centralisée et stratégique des interactions issues des réseaux sociaux, basée sur Llama 3.1 et des
+technologies avancées de traitement du langage naturel.
+La solution collecte les statuts et leurs commentaires multicanaux (Facebook, Instagram, X), réalise une analyse sémantique et émotionnelle,
+puis classe automatiquement les interactions selon leur niveau d’urgence et leur sentiment afin d’orienter les priorités de traitement.
+Elle combine quatre capacités clés : centralisation multiréseaux, priorisation intelligente, supervision en temps réel via un tableau de bord
+décisionnel, et génération assistée de réponses avec validation humaine avant publication.
+Cette solution permet ainsi d’améliorer la réactivité des équipes, d’assurer la cohérence des réponses et de renforcer la maîtrise de l’e-
+réputation.
+* Anonymat du client préservé
+•Solution d’intelligence artificielle dédiée —
+la gestion centralisée et intelligente des
+interactions sur les réseaux sociaux.
+• Analyse automatique, priorisation par
+urgence et génération assistée de réponses
+avec validation humaine.
+• hptimisation de la réactivité, de la
+performance opérationnelle et de la
+maîtrise de l’e-réputation.
+
+-- 90 of 113 --
+
+98
+
+-- 91 of 113 --
+
+99
+
+-- 92 of 113 --
+
+100
+Assistant IA pour l’élaboration des appels d'offres *
+BUSINESS CASE
+Bénéfices client
+• Dain de temps pour les équipes
+commerciales
+• Sélection rapide et fiable des profils
+• aeilleure valorisation des talents
+internes
+Solution Wevioo
+Besoin client
+• L'équipe commerciale doivent identifier rapidement les profils adaptés aux appels d’offres, mais les CV sont dispersés et l’analyse des
+cahiers des charges est manuelle, longue et peu systématique. Le client a besoin d’une solution pour centraliser les CV, extraire
+automatiquement les profils recherchés et accélérer la sélection des candidats pertinents.
+tlateforme d’intelligence artificielle permettant l’analyse automatisée des cahiers des charges afin d’identifier avec précision les
+compétences clés, les profils recherchés et les niveaux d’expérience attendus.
+La solution compare ensuite ces besoins aux CV internes centralisés et réalise un matching intelligent basé sur un score de pertinence,
+facilitant l’identification rapide des candidats les plus adaptés.
+* Anonymat du client préservé
+Solution d’intelligence artificielle dédiée à
+l’analyse automatisée des cahiers des charges et
+au matching intelligent des profils internes.
+Extraction automatique des compétences,
+identification des rôles recherchés et génération
+d’un scoring de pertinence avec validation
+humaine.
+Optimisation de la réactivité commerciale,
+valorisation des talents du groupe et
+amélioration des chances de succès aux appels
+d’offres.
+
+-- 93 of 113 --
+
+101
+
+-- 94 of 113 --
+
+10
+3
+10
+3
+
+-- 95 of 113 --
+
+10
+4
+10
+4
+
+-- 96 of 113 --
+
+DÉMO CLIENTS
+
+-- 97 of 113 --
+
+10
+6
+10
+6
+
+-- 98 of 113 --
+
+10
+7
+10
+7
+
+-- 99 of 113 --
+
+10
+8
+10
+8
+
+-- 100 of 113 --
+
+10
+9
+10
+9
+
+-- 101 of 113 --
+
+CAS D’USAGE SAISIE DE COMMANDE
+
+-- 102 of 113 --
+
+111
+Cas 1: Cinq clients me communiquent des ordres par mail
+CES ORDRES DOIVENT ÊTRE RESSAISIS DANS LE WMS ET DANS LE TMS
+~15 min
+par ordre e-mail saisi manuellement
+dans le WMS/TMS
+3 à 8 %
+d'erreurs de saisie génératrices de
+litiges et retours
+−20 %
+de capacité disponible de l'équipe ops
+absorbée par la saisie
+F L U X A C T U E L — E - M A I L S A N S A U T O M A T I S A T I O N
+1 Client envoie
+un e-mail
+PDF / Excel
+en pièce jointe
+2 Opérateur
+lit le mail
+Boîte hutlook
+partagée
+3 Ouvre le PDF
+ou Excel
+Document non
+structuré
+4 Ressaisit dans
+le WMS
+~8 min
+risque d'erreur
+5 Ressaisit dans
+le TMS
+~7 min
+risque d'erreur
+6 Confirme
+au client
+5élai total
+>20 min
+
+-- 103 of 113 --
+
+11
+2
+Ce que nous avons construit pour la démo …
+UN JEU DE DONNÉES ET DES OUTILS DE SIMULATION
+HARIBO FRANCE SAS
+Confiserie
+Ambiant 15-25°C ORD-2024-0501 OT-2024-2001
+MONDELEZ FRANCE
+Biscuits / Chocolat
+Ambiant 15-25°C ORD-2024-0502 OT-2024-2002
+troduits : ailka hreo, hreo, Lu tetit Beurre, BN
+⚑ Produits fragiles · Quai sec obligatoire
+NESTLÉ PRODUITS FRAIS
+Laitiers réfrigérés
+0 / +4°C ORD-2024-0503 OT-2024-2003
+troduits : La Laitière, Sveltesse, t'tit hnctueux, aousse
+⚑ Chaîne du froid obligatoire · DLC 21-28 j.
+NESTLÉ CAFÉ FRANCE
+Café / 5osettes / Capsules
+Ambiant 15-25°C ORD-2024-0504 OT-2024-2004
+troduits : Nescafé Classic, Dold, 5olce Dusto, Nespresso
+⚑ Anti-humidité · Capsules fragiles (max 4 niv.)
+L'ORÉAL FRANCE
+Cosmétique / Iygiène
+Ambiant 15-25°C ORD-2024-0505 OT-2024-2005
+troduits : Elvive, aen Expert, Darnier aicellar, aaybelline
+01 Jeu de données EDIFACT réaliste
+5 donneurs d'ordre (Iaribo, aondelez, Nestlé Crais, Nestlé Café,
+L'hréal) — 20 lignes produits, 5 en-têtes hR5ERS, 5 hT LCTaLN avec
+données transport agrégées.
+Excel 5 onglets
+03 Simulateur WMS interactif
+Formulaire de saisie commande (segments EDIFACT annotés), éditeur
+de lignes, portefeuille avec filtres multi-critères, panneau de détail par
+commande.
+Application HTML
+02 Simulateur TMS interactif
+Cormulaire de saisie hT (données transport agrégées, pas de lignes
+produits), portefeuille hT, filtres température et statut, vue détail avec
+données agrégées.
+Application HTML
+▪ 5 commandes, 20 lignes
+▪ 1 simulateur WMS
+▪ 1 simulateur TMS
+▪ 1 Robot IA
+
+-- 104 of 113 --
+
+11
+3
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS EXCEL : AGENT 1 : RÉCEPTION EMAIL
+
+-- 105 of 113 --
+
+11
+4
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS EXCEL : AGENT 2 : EXTRACTION DATA
+
+-- 106 of 113 --
+
+11
+5
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS EXCEL : AGENT 3 : VALIDATION
+
+-- 107 of 113 --
+
+11
+6
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS PDF : AGENT 1 : RÉCEPTION EMAIL
+
+-- 108 of 113 --
+
+11
+7
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS PDF : AGENT 2 : EXTRACTION DATA
+
+-- 109 of 113 --
+
+11
+8
+Démo 1
+GÉNÉRATION D’ORDRES DE TRANSPORT
+CAS PDF : AGENT 3 : VALIDATION
+
+-- 110 of 113 --
+
+119
+Contactez-nous!
+Tunis
+Technopark El Ghazela
+2088 Tunis
+Tunisia
+Paris
+68 Avenue des Champs-Elysées
+75008 Paris
+France
+Riyad
+6505 Al Sahaba Rd,
+Lshbiliyah, Riyadh 13226,
+Saudi Arabia.
+Dubaï
+Jumeirah Lake Tower
+Almas Tower, DMCC, P.O Box
+340505, Dubai
+Abidjan
+ChCh5Y LL tlateaux les vallons 6ème
+tranche Lot 1763 , Llot 65 – Bt 1158
+Abidjan 09, Lvory Coast
+
+-- 111 of 113 --
+
+Annexe
+
+-- 112 of 113 --
+
+12
+1
+12
+1
+WEENSIGHT : Notre plateforme IA générative dédiée aux entreprises
+IA GÉNÉRATIVE ADAPTÉE AU CONTEXTE DE L’ENTREPRISE
+BD vectorielle
+Données traitées
+Data sources
+Transformations de données
+Préparation, Chunking, Embedding, Indexation Réglage / entrainement, validation et déploiement de modèles
+Gestion des données Déploiement de modèles
+Gérer la
+demande Enrichissement Prompt
+Gateway
+LLM
+sécurisée
+Post-
+traitement
+Pipeline d’applications en temps réel : gérer les demandes, les données, les modèles & les validations
+Déploiement d’applications
+Question de
+l’utilisateur
+Monitoring &
+Validation Labellisation
+Surveillez les données, le modèle et les commentaires
+Alertes
+Fondation
+Model
+Modèle affiné
+Surveillance
+Fine-tune
+(Optionnel) Evaluation Testing Deployment
+RLHF
+
+-- 113 of 113 --
+

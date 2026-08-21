@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #FFFFFF; color: #161B3D; font-family: "Public Sans", system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; }
+  a { color: #17A398; text-decoration: none; }
+  a:hover { color: #161B3D; }
+  button { font: inherit; cursor: pointer; line-height: 1.25; }
+  input, textarea, select { font: inherit; color: inherit; }
+  h1, h2, h3, h4 { font-family: Archivo, system-ui, sans-serif; font-weight: 500; margin: 0; text-wrap: pretty; }
+  p { margin: 0; text-wrap: pretty; }
+  ul { margin: 0; padding: 0; list-style: none; }
+</style>
+</helmet>
+<div style="min-height:100vh; display:flex; flex-direction:column">
+
+  <header style="position:sticky; top:0; z-index:50; background:#161B3D; color:#FFFFFF">
+    <div style="max-width:1240px; margin:0 auto; padding:0 24px; height:68px; display:flex; align-items:center; gap:32px">
+      <button onClick="{{ goHome }}" style="background:none; border:0; padding:0; color:#FFFFFF; font-family:Archivo, sans-serif; font-size:22px; font-weight:500; letter-spacing:-0.02em; display:flex; align-items:baseline; gap:2px">weensight<span style="color:#17A398">.</span></button>
+      <nav style="display:flex; gap:4px; margin-left:auto">
+        <sc-for list="{{ nav }}" as="item" hint-placeholder-count="4">
+          <button onClick="{{ item.go }}" style="background:none; border:0; padding:8px 14px; border-radius:8px; font-size:15px; color:rgba(255,255,255,0.78)" style-hover="background:rgba(255,255,255,0.08); color:#FFFFFF">{{ item.label }}</button>
+        </sc-for>
+      </nav>
+      <div style="display:flex; align-items:center; gap:14px">
+        <button onClick="{{ toggleLang }}" aria-label="Language" style="background:none; border:1px solid rgba(255,255,255,0.28); border-radius:8px; padding:6px 10px; color:rgba(255,255,255,0.85); font-size:13px; letter-spacing:0.04em">{{ langLabel }}</button>
+        <button onClick="{{ goContact }}" style="background:#F5A623; border:0; border-radius:8px; padding:11px 18px; color:#161B3D; font-size:15px; font-weight:500" style-hover="background:#E29714">{{ t.demo }}</button>
+      </div>
+    </div>
+  </header>
+
+  <main style="flex:1">
+
+    <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <section style="background:#161B3D; color:#FFFFFF; padding:96px 24px 104px">
+          <div style="max-width:1240px; margin:0 auto">
+            <div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:36px">
+              <sc-for list="{{ heroBadges }}" as="b" hint-placeholder-count="3">
+                <span style="border:1px solid rgba(255,255,255,0.24); border-radius:8px; padding:7px 14px; font-size:14px; line-height:1.35; color:rgba(255,255,255,0.86)">{{ b }}</span>
+              </sc-for>
+            </div>
+            <h1 style="font-size:clamp(38px, 5.4vw, 68px); line-height:1.05; letter-spacing:-0.025em; max-width:16ch">{{ heroTitle }}</h1>
+            <p style="margin-top:28px; max-width:62ch; font-size:19px; line-height:1.6; color:rgba(255,255,255,0.76)">{{ heroText }}</p>
+            <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:44px">
+              <button onClick="{{ goContact }}" style="background:#F5A623; border:0; border-radius:8px; padding:15px 26px; color:#161B3D; font-size:16px; font-weight:500" style-hover="background:#E29714">{{ t.demo }}</button>
+              <button onClick="{{ goUC }}" style="background:none; border:1px solid rgba(255,255,255,0.42); border-radius:8px; padding:15px 26px; color:#FFFFFF; font-size:16px" style-hover="border-color:#FFFFFF">{{ t.catalogue }}</button>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:88px 24px; background:#FFFFFF">
+          <div style="max-width:1240px; margin:0 auto">
+            <p style="font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#17A398">{{ probKicker }}</p>
+            <h2 style="margin-top:14px; font-size:clamp(28px, 3.2vw, 40px); line-height:1.15; letter-spacing:-0.02em; max-width:30ch">{{ probTitle }}</h2>
+            <p style="margin-top:18px; max-width:70ch; font-size:17px; line-height:1.6; color:#5A6076">{{ probText }}</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-top:44px">
+              <sc-for list="{{ problems }}" as="pb" hint-placeholder-count="6">
+                <article style="border-radius:12px; padding:28px; background:{{ pb.bg }}; color:{{ pb.fg }}">
+                  <div style="display:flex; align-items:center; justify-content:space-between">
+                    <i class="{{ pb.icon }}" aria-hidden="true" style="font-size:26px"></i>
+                    <span style="font-size:13px; letter-spacing:0.08em">{{ pb.n }}</span>
+                  </div>
+                  <h3 style="margin-top:22px; font-size:19px; line-height:1.3">{{ pb.t }}</h3>
+                  <p style="margin-top:12px; font-size:15px; line-height:1.55">{{ pb.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:88px 24px; background:#F5F6F8">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(28px, 3.2vw, 40px); line-height:1.15; letter-spacing:-0.02em; max-width:28ch">{{ pillTitle }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:40px">
+              <sc-for list="{{ pillars }}" as="pl" hint-placeholder-count="4">
+                <article style="background:#FFFFFF; border-radius:12px; padding:26px 26px 28px 24px; border-left:3px solid {{ pl.accent }}">
+                  <h3 style="font-size:18px">{{ pl.t }}</h3>
+                  <p style="margin-top:12px; font-size:15px; line-height:1.55; color:#5A6076">{{ pl.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+            <div style="margin-top:28px">
+              <button onClick="{{ goPlatform }}" style="background:none; border:1px solid #C9CDD8; border-radius:8px; padding:13px 22px; color:#161B3D; font-size:15px" style-hover="border-color:#161B3D">{{ platformLink }}</button>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:88px 24px; background:#FFFFFF">
+          <div style="max-width:1240px; margin:0 auto">
+            <div style="display:flex; flex-wrap:wrap; align-items:flex-end; gap:20px; justify-content:space-between">
+              <div>
+                <h2 style="font-size:clamp(28px, 3.2vw, 40px); line-height:1.15; letter-spacing:-0.02em">{{ t.ucsTitle }}</h2>
+                <p style="margin-top:14px; font-size:17px; color:#5A6076">{{ t.ucsSub }}</p>
+              </div>
+              <button onClick="{{ goUC }}" style="background:none; border:1px solid #C9CDD8; border-radius:8px; padding:12px 20px; color:#161B3D; font-size:15px" style-hover="border-color:#161B3D">{{ t.catalogue }}</button>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:32px">
+              <sc-for list="{{ homePills }}" as="hp" hint-placeholder-count="3">
+                <button onClick="{{ hp.go }}" style="border-radius:999px; padding:9px 16px; font-size:14px; border:1px solid transparent; background:{{ hp.bg }}; color:{{ hp.fg }}">{{ hp.label }}</button>
+              </sc-for>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-top:24px">
+              <sc-for list="{{ homeCards }}" as="c" hint-placeholder-count="3">
+                <article onClick="{{ c.go }}" style="border:1px solid #E4E6EC; border-radius:12px; padding:26px; cursor:pointer; display:flex; flex-direction:column; gap:14px" style-hover="border-color:#161B3D">
+                  <div style="display:flex; flex-wrap:wrap; gap:8px">
+                    <span style="border-radius:999px; padding:5px 12px; font-size:12.5px; background:{{ c.famBg }}; color:{{ c.famFg }}">{{ c.fam }}</span>
+                    <span style="border-radius:999px; padding:5px 12px; font-size:12.5px; background:#F5F6F8; color:#5A6076">{{ c.sector }}</span>
+                  </div>
+                  <h3 style="font-size:18px; line-height:1.3">{{ c.title }}</h3>
+                  <p style="font-size:15px; line-height:1.55; color:#5A6076">{{ c.desc }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:56px 24px; background:#F5F6F8">
+          <div style="max-width:1240px; margin:0 auto">
+            <p style="font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#5A6076">{{ logosKicker }}</p>
+            <div style="display:flex; flex-wrap:wrap; gap:14px 44px; margin-top:24px; align-items:center">
+              <sc-for list="{{ logos }}" as="lg" hint-placeholder-count="8">
+                <span style="font-family:Archivo, sans-serif; font-size:17px; color:#161B3D; opacity:0.62">{{ lg }}</span>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isPlatform }}" hint-placeholder-val="{{ false }}">
+      <div>
+        <section style="background:#161B3D; color:#FFFFFF; padding:80px 24px 88px">
+          <div style="max-width:1240px; margin:0 auto">
+            <p style="font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#17A398">{{ pf.kicker }}</p>
+            <h1 style="margin-top:18px; font-size:clamp(32px, 4.4vw, 54px); line-height:1.08; letter-spacing:-0.025em; max-width:24ch">{{ pf.title }}</h1>
+            <p style="margin-top:24px; max-width:66ch; font-size:18px; line-height:1.65; color:rgba(255,255,255,0.76)">{{ pf.text }}</p>
+          </div>
+        </section>
+
+        <section style="padding:80px 24px">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em">{{ pf.robustTitle }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-top:36px">
+              <sc-for list="{{ pf.robust }}" as="r" hint-placeholder-count="6">
+                <article style="border:1px solid #E4E6EC; border-radius:12px; padding:26px">
+                  <h3 style="font-size:18px">{{ r.t }}</h3>
+                  <p style="margin-top:12px; font-size:15px; line-height:1.55; color:#5A6076">{{ r.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:80px 24px; background:#F5F6F8">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em; max-width:26ch">{{ pf.archTitle }}</h2>
+            <p style="margin-top:16px; max-width:70ch; font-size:17px; line-height:1.6; color:#5A6076">{{ pf.archText }}</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(270px, 1fr)); gap:16px; margin-top:36px">
+              <sc-for list="{{ pf.layers }}" as="ly" hint-placeholder-count="4">
+                <article style="background:#FFFFFF; border-radius:12px; padding:26px; border-top:3px solid {{ ly.accent }}">
+                  <span style="font-size:13px; letter-spacing:0.08em; color:#5A6076">{{ ly.n }}</span>
+                  <h3 style="margin-top:12px; font-size:18px">{{ ly.key }}</h3>
+                  <ul style="margin-top:16px; display:flex; flex-direction:column; gap:10px">
+                    <sc-for list="{{ ly.items }}" as="it" hint-placeholder-count="3">
+                      <li style="font-size:14.5px; line-height:1.5; color:#5A6076; padding-left:14px; border-left:1px solid #E4E6EC">{{ it }}</li>
+                    </sc-for>
+                  </ul>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:80px 24px">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em; max-width:26ch">{{ pf.govTitle }}</h2>
+            <p style="margin-top:16px; max-width:70ch; font-size:17px; line-height:1.6; color:#5A6076">{{ pf.govText }}</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:16px; margin-top:36px">
+              <sc-for list="{{ pf.governance }}" as="g" hint-placeholder-count="8">
+                <article style="border:1px solid #E4E6EC; border-radius:12px; padding:24px">
+                  <i class="{{ g.icon }}" aria-hidden="true" style="font-size:24px; color:#17A398"></i>
+                  <h3 style="margin-top:16px; font-size:17px; line-height:1.35">{{ g.t }}</h3>
+                  <ul style="margin-top:14px; display:flex; flex-direction:column; gap:8px">
+                    <sc-for list="{{ g.items }}" as="gi" hint-placeholder-count="3">
+                      <li style="font-size:14.5px; line-height:1.5; color:#5A6076">{{ gi }}</li>
+                    </sc-for>
+                  </ul>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:80px 24px; background:#F5F6F8">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em; max-width:30ch">{{ pf.compTitle }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-top:36px">
+              <div style="background:#FBEAF0; color:#A82654; border-radius:12px; padding:30px">
+                <h3 style="font-size:18px">{{ pf.isnotTitle }}</h3>
+                <ul style="margin-top:20px; display:flex; flex-direction:column; gap:14px">
+                  <sc-for list="{{ pf.isnot }}" as="x" hint-placeholder-count="4">
+                    <li style="font-size:15.5px; line-height:1.5; display:flex; gap:10px"><span aria-hidden="true">✗</span><span>{{ x }}</span></li>
+                  </sc-for>
+                </ul>
+              </div>
+              <div style="background:#E4F7F4; color:#0E6F67; border-radius:12px; padding:30px">
+                <h3 style="font-size:18px">{{ pf.isTitle }}</h3>
+                <ul style="margin-top:20px; display:flex; flex-direction:column; gap:14px">
+                  <sc-for list="{{ pf.is }}" as="y" hint-placeholder-count="4">
+                    <li style="font-size:15.5px; line-height:1.5; display:flex; gap:10px"><span aria-hidden="true">✓</span><span>{{ y }}</span></li>
+                  </sc-for>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:80px 24px">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em">{{ pf.engTitle }}</h2>
+            <p style="margin-top:16px; max-width:70ch; font-size:17px; line-height:1.6; color:#5A6076">{{ pf.engText }}</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:36px">
+              <sc-for list="{{ pf.engagement }}" as="e" hint-placeholder-count="4">
+                <article style="border:1px solid #E4E6EC; border-radius:12px; padding:26px; border-top:3px solid {{ e.accent }}">
+                  <h3 style="font-size:17px">{{ e.t }}</h3>
+                  <p style="margin-top:12px; font-size:15px; line-height:1.55; color:#5A6076">{{ e.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+            <h2 style="margin-top:72px; font-size:clamp(26px, 3vw, 36px); letter-spacing:-0.02em">{{ pf.benTitle }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-top:32px">
+              <sc-for list="{{ pf.benefits }}" as="b" hint-placeholder-count="5">
+                <article style="background:#F5F6F8; border-radius:12px; padding:24px">
+                  <h3 style="font-size:16.5px; line-height:1.35">{{ b.t }}</h3>
+                  <p style="margin-top:10px; font-size:14.5px; line-height:1.55; color:#5A6076">{{ b.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isCatalogue }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:64px 24px 88px">
+        <div style="max-width:1240px; margin:0 auto">
+          <h1 style="font-size:clamp(32px, 4vw, 48px); letter-spacing:-0.025em">{{ t.ucsTitle }}</h1>
+          <p style="margin-top:16px; max-width:64ch; font-size:18px; line-height:1.6; color:#5A6076">{{ t.ucsSub }}</p>
+
+          <div style="display:flex; gap:4px; margin-top:36px; border-bottom:1px solid #E4E6EC; flex-wrap:wrap">
+            <sc-for list="{{ tabs }}" as="tb" hint-placeholder-count="3">
+              <button onClick="{{ tb.go }}" style="background:none; border:0; border-bottom:2px solid {{ tb.line }}; padding:12px 16px; font-size:15px; color:{{ tb.color }}; line-height:1.2">{{ tb.label }}</button>
+            </sc-for>
+          </div>
+
+          <sc-if value="{{ viewTypo }}" hint-placeholder-val="{{ true }}">
+            <div>
+              <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:32px">
+                <sc-for list="{{ famPills }}" as="fp" hint-placeholder-count="5">
+                  <button onClick="{{ fp.go }}" style="border-radius:999px; padding:9px 16px; font-size:14px; line-height:1.2; border:1px solid {{ fp.border }}; background:{{ fp.bg }}; color:{{ fp.fg }}">{{ fp.label }}</button>
+                </sc-for>
+              </div>
+              <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:20px">
+                <label style="display:flex; flex-direction:column; gap:6px; font-size:13px; color:#5A6076">{{ t.sector }}
+                  <select value="{{ sectorVal }}" onChange="{{ onSector }}" style="border:1px solid #E4E6EC; border-radius:8px; padding:10px 12px; font-size:15px; background:#FFFFFF; min-width:210px">
+                    <sc-for list="{{ sectorOptions }}" as="so" hint-placeholder-count="6">
+                      <option value="{{ so.value }}">{{ so.label }}</option>
+                    </sc-for>
+                  </select>
+                </label>
+                <label style="display:flex; flex-direction:column; gap:6px; font-size:13px; color:#5A6076">{{ t.fn }}
+                  <select value="{{ fnVal }}" onChange="{{ onFn }}" style="border:1px solid #E4E6EC; border-radius:8px; padding:10px 12px; font-size:15px; background:#FFFFFF; min-width:230px">
+                    <sc-for list="{{ fnOptions }}" as="fo" hint-placeholder-count="6">
+                      <option value="{{ fo.value }}">{{ fo.label }}</option>
+                    </sc-for>
+                  </select>
+                </label>
+              </div>
+              <p style="margin-top:24px; font-size:14px; color:#5A6076">{{ resultCount }}</p>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-top:16px">
+                <sc-for list="{{ ucCards }}" as="c" hint-placeholder-count="9">
+                  <article onClick="{{ c.go }}" style="border:1px solid #E4E6EC; border-radius:12px; padding:26px; cursor:pointer; display:flex; flex-direction:column; gap:14px" style-hover="border-color:#161B3D">
+                    <div style="display:flex; flex-wrap:wrap; gap:8px">
+                      <span style="border-radius:999px; padding:5px 12px; font-size:12.5px; background:{{ c.famBg }}; color:{{ c.famFg }}">{{ c.fam }}</span>
+                      <span style="border-radius:999px; padding:5px 12px; font-size:12.5px; background:#F5F6F8; color:#5A6076">{{ c.sector }}</span>
+                    </div>
+                    <h3 style="font-size:18px; line-height:1.3">{{ c.title }}</h3>
+                    <p style="font-size:15px; line-height:1.55; color:#5A6076">{{ c.desc }}</p>
+                    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:auto">
+                      <sc-for list="{{ c.techs }}" as="tg" hint-placeholder-count="2">
+                        <span style="border:1px solid #E4E6EC; border-radius:6px; padding:4px 9px; font-size:12.5px; color:#5A6076">{{ tg }}</span>
+                      </sc-for>
+                    </div>
+                  </article>
+                </sc-for>
+              </div>
+              <sc-if value="{{ hasMore }}" hint-placeholder-val="{{ true }}">
+                <div style="margin-top:28px">
+                  <button onClick="{{ showMore }}" style="background:none; border:1px solid #C9CDD8; border-radius:8px; padding:13px 22px; font-size:15px; color:#161B3D; line-height:1.2" style-hover="border-color:#161B3D">{{ t.more }}</button>
+                </div>
+              </sc-if>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ viewSector }}" hint-placeholder-val="{{ false }}">
+            <div style="display:flex; flex-direction:column; gap:16px; margin-top:32px">
+              <sc-for list="{{ sectorView }}" as="sv" hint-placeholder-count="5">
+                <article style="border:1px solid #E4E6EC; border-radius:12px; padding:30px">
+                  <h2 style="font-size:22px">{{ sv.name }}</h2>
+                  <p style="margin-top:10px; max-width:80ch; font-size:15.5px; line-height:1.55; color:#5A6076">{{ sv.goal }}</p>
+                  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-top:24px">
+                    <sc-for list="{{ sv.items }}" as="si" hint-placeholder-count="6">
+                      <div style="background:#F5F6F8; border-radius:10px; padding:18px">
+                        <p style="font-size:15px; line-height:1.4">{{ si.t }}</p>
+                        <p style="margin-top:10px; font-size:13.5px; color:#0E6F67">{{ si.k }}</p>
+                      </div>
+                    </sc-for>
+                  </div>
+                </article>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ viewFn }}" hint-placeholder-val="{{ false }}">
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-top:32px">
+              <sc-for list="{{ fnView }}" as="fv" hint-placeholder-count="7">
+                <article style="border:1px solid #E4E6EC; border-radius:12px; padding:28px">
+                  <h2 style="font-size:19px">{{ fv.name }}</h2>
+                  <p style="margin-top:10px; font-size:14.5px; line-height:1.5; color:#5A6076">{{ fv.pain }}</p>
+                  <ul style="margin-top:20px; display:flex; flex-direction:column; gap:10px">
+                    <sc-for list="{{ fv.items }}" as="fi" hint-placeholder-count="4">
+                      <li style="font-size:15px; line-height:1.45; padding-left:14px; border-left:2px solid #E4F7F4">{{ fi }}</li>
+                    </sc-for>
+                  </ul>
+                </article>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isUC }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:40px 24px 88px">
+        <div style="max-width:1240px; margin:0 auto">
+          <nav style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:13.5px; color:#5A6076">
+            <button onClick="{{ goUC }}" style="background:none; border:0; padding:0; color:#5A6076; font-size:13.5px" style-hover="color:#161B3D">{{ t.ucsTitle }}</button>
+            <span aria-hidden="true">/</span>
+            <span>{{ uc.fam }}</span>
+            <span aria-hidden="true">/</span>
+            <span style="color:#161B3D">{{ uc.title }}</span>
+          </nav>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:28px">
+            <span style="border-radius:999px; padding:6px 13px; font-size:13px; background:{{ uc.famBg }}; color:{{ uc.famFg }}">{{ uc.fam }}</span>
+            <span style="border-radius:999px; padding:6px 13px; font-size:13px; background:#F5F6F8; color:#5A6076">{{ uc.sector }}</span>
+            <span style="border-radius:999px; padding:6px 13px; font-size:13px; background:#F5F6F8; color:#5A6076">{{ uc.fn }}</span>
+          </div>
+          <h1 style="margin-top:22px; font-size:clamp(30px, 3.8vw, 46px); line-height:1.1; letter-spacing:-0.025em; max-width:24ch">{{ uc.title }}</h1>
+          <p style="margin-top:20px; max-width:72ch; font-size:18px; line-height:1.65; color:#5A6076">{{ uc.desc }}</p>
+
+          <div style="display:grid; grid-template-columns:minmax(0, 2fr) minmax(280px, 1fr); gap:32px; margin-top:48px; align-items:start">
+            <div style="display:flex; flex-direction:column; gap:36px">
+              <div>
+                <h2 style="font-size:20px">{{ t.value }}</h2>
+                <ul style="margin-top:18px; display:flex; flex-direction:column; gap:12px">
+                  <sc-for list="{{ uc.value }}" as="v" hint-placeholder-count="3">
+                    <li style="display:flex; gap:12px; font-size:16px; line-height:1.5"><span aria-hidden="true" style="color:#17A398">✓</span><span>{{ v }}</span></li>
+                  </sc-for>
+                </ul>
+              </div>
+              <div>
+                <h2 style="font-size:20px">{{ t.techs }}</h2>
+                <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:18px">
+                  <sc-for list="{{ uc.techs }}" as="tg" hint-placeholder-count="4">
+                    <span style="border:1px solid #E4E6EC; border-radius:8px; padding:8px 13px; font-size:14px; color:#5A6076">{{ tg }}</span>
+                  </sc-for>
+                </div>
+              </div>
+              <div>
+                <h2 style="font-size:20px">{{ t.deployed }}</h2>
+                <div style="margin-top:18px; background:#F5F6F8; border-radius:12px; padding:24px">
+                  <p style="font-size:16px; line-height:1.5">{{ uc.client }}</p>
+                  <sc-if value="{{ uc.hasBC }}" hint-placeholder-val="{{ false }}">
+                    <button onClick="{{ uc.goBC }}" style="margin-top:16px; background:none; border:1px solid #C9CDD8; border-radius:8px; padding:11px 18px; font-size:14.5px; color:#161B3D; line-height:1.2" style-hover="border-color:#161B3D">{{ uc.bcLabel }}</button>
+                  </sc-if>
+                </div>
+              </div>
+            </div>
+            <aside style="background:#161B3D; color:#FFFFFF; border-radius:12px; padding:30px">
+              <h2 style="font-size:20px; line-height:1.3">{{ t.askTitle }}</h2>
+              <p style="margin-top:14px; font-size:15.5px; line-height:1.6; color:rgba(255,255,255,0.76)">{{ t.askText }}</p>
+              <button onClick="{{ goContact }}" style="margin-top:24px; width:100%; background:#F5A623; border:0; border-radius:8px; padding:14px 20px; color:#161B3D; font-size:15.5px; font-weight:500; line-height:1.2" style-hover="background:#E29714">{{ t.demo }}</button>
+            </aside>
+          </div>
+
+          <div style="margin-top:72px">
+            <h2 style="font-size:22px">{{ t.related }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-top:20px">
+              <sc-for list="{{ uc.related }}" as="r" hint-placeholder-count="3">
+                <article onClick="{{ r.go }}" style="border:1px solid #E4E6EC; border-radius:12px; padding:22px; cursor:pointer" style-hover="border-color:#161B3D">
+                  <span style="border-radius:999px; padding:4px 11px; font-size:12px; background:{{ r.famBg }}; color:{{ r.famFg }}">{{ r.fam }}</span>
+                  <h3 style="margin-top:14px; font-size:16.5px; line-height:1.35">{{ r.title }}</h3>
+                  <p style="margin-top:8px; font-size:14px; color:#5A6076">{{ r.sector }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isRefs }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:64px 24px 88px">
+        <div style="max-width:1240px; margin:0 auto">
+          <h1 style="font-size:clamp(32px, 4vw, 48px); letter-spacing:-0.025em">{{ t.refsTitle }}</h1>
+          <p style="margin-top:16px; max-width:64ch; font-size:18px; line-height:1.6; color:#5A6076">{{ t.refsSub }}</p>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:32px">
+            <sc-for list="{{ refPills }}" as="rp" hint-placeholder-count="6">
+              <button onClick="{{ rp.go }}" style="border-radius:999px; padding:9px 16px; font-size:14px; line-height:1.2; border:1px solid {{ rp.border }}; background:{{ rp.bg }}; color:{{ rp.fg }}">{{ rp.label }}</button>
+            </sc-for>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-top:28px">
+            <sc-for list="{{ bcCards }}" as="b" hint-placeholder-count="9">
+              <article onClick="{{ b.go }}" style="border:1px solid #E4E6EC; border-radius:12px; padding:26px; cursor:pointer; display:flex; flex-direction:column; gap:14px" style-hover="border-color:#161B3D">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:10px">
+                  <span style="font-family:Archivo, sans-serif; font-size:16px">{{ b.client }}</span>
+                  <span style="font-size:13px; color:#5A6076">{{ b.year }}</span>
+                </div>
+                <h3 style="font-size:18px; line-height:1.3">{{ b.title }}</h3>
+                <span style="align-self:flex-start; border-radius:999px; padding:5px 12px; font-size:12.5px; background:#F5F6F8; color:#5A6076">{{ b.sector }}</span>
+                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:auto">
+                  <sc-for list="{{ b.tags }}" as="tg" hint-placeholder-count="3">
+                    <span style="border:1px solid #E4E6EC; border-radius:6px; padding:4px 9px; font-size:12.5px; color:#5A6076">{{ tg }}</span>
+                  </sc-for>
+                </div>
+              </article>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isBC }}" hint-placeholder-val="{{ false }}">
+      <div style="padding:40px 24px 88px">
+        <div style="max-width:1240px; margin:0 auto">
+          <nav style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:13.5px; color:#5A6076">
+            <button onClick="{{ goRefs }}" style="background:none; border:0; padding:0; color:#5A6076; font-size:13.5px" style-hover="color:#161B3D">{{ t.refsTitle }}</button>
+            <span aria-hidden="true">/</span>
+            <span>{{ bc.sector }}</span>
+            <span aria-hidden="true">/</span>
+            <span style="color:#161B3D">{{ bc.client }}</span>
+          </nav>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:28px">
+            <span style="border-radius:999px; padding:6px 13px; font-size:13px; background:#F5F6F8; color:#5A6076">{{ bc.sector }}</span>
+            <span style="border-radius:999px; padding:6px 13px; font-size:13px; background:#F5F6F8; color:#5A6076">{{ bc.year }}</span>
+          </div>
+          <h1 style="margin-top:22px; font-size:clamp(30px, 3.8vw, 46px); line-height:1.1; letter-spacing:-0.025em; max-width:26ch">{{ bc.title }}</h1>
+
+          <div style="margin-top:36px; border:1px solid #E4E6EC; border-radius:12px; padding:26px; max-width:100%">
+            <h2 style="font-size:14px; letter-spacing:0.08em; text-transform:uppercase; color:#5A6076">{{ t.about }}</h2>
+            <p style="margin-top:14px; max-width:88ch; font-size:16px; line-height:1.6">{{ bc.about }}</p>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; margin-top:16px">
+            <div style="background:#FBEAF0; color:#A82654; border-radius:12px; padding:30px">
+              <h2 style="font-size:19px">{{ t.need }}</h2>
+              <div style="margin-top:18px; display:flex; flex-direction:column; gap:14px">
+                <sc-for list="{{ bc.need }}" as="n" hint-placeholder-count="2">
+                  <p style="font-size:15.5px; line-height:1.6">{{ n }}</p>
+                </sc-for>
+              </div>
+            </div>
+            <div style="background:#E4F7F4; color:#0E6F67; border-radius:12px; padding:30px">
+              <h2 style="font-size:19px">{{ t.benefits }}</h2>
+              <ul style="margin-top:18px; display:flex; flex-direction:column; gap:12px">
+                <sc-for list="{{ bc.benefits }}" as="bn" hint-placeholder-count="4">
+                  <li style="display:flex; gap:10px; font-size:15.5px; line-height:1.55"><span aria-hidden="true">✓</span><span>{{ bn }}</span></li>
+                </sc-for>
+              </ul>
+            </div>
+          </div>
+
+          <div style="margin-top:56px">
+            <h2 style="font-size:22px">{{ t.solution }}</h2>
+            <ul style="margin-top:20px; display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:14px">
+              <sc-for list="{{ bc.solution }}" as="sl" hint-placeholder-count="4">
+                <li style="background:#F5F6F8; border-radius:10px; padding:20px; font-size:15.5px; line-height:1.6">{{ sl }}</li>
+              </sc-for>
+            </ul>
+          </div>
+
+          <sc-if value="{{ bc.hasProcess }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:56px">
+              <h2 style="font-size:22px">{{ t.process }}</h2>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; margin-top:20px">
+                <sc-for list="{{ bc.process }}" as="ps" hint-placeholder-count="5">
+                  <article style="border:1px solid #E4E6EC; border-radius:12px; padding:22px; border-top:3px solid {{ ps.accent }}">
+                    <span style="font-size:13px; letter-spacing:0.08em; color:#5A6076">{{ ps.n }}</span>
+                    <h3 style="margin-top:12px; font-size:16.5px; line-height:1.3">{{ ps.t }}</h3>
+                    <p style="margin-top:10px; font-size:14.5px; line-height:1.55; color:#5A6076">{{ ps.d }}</p>
+                  </article>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ bc.hasSynthesis }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:56px">
+              <h2 style="font-size:22px">{{ t.synth }}</h2>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-top:20px">
+                <sc-for list="{{ bc.synthesis }}" as="sy" hint-placeholder-count="3">
+                  <article style="border:1px solid #E4E6EC; border-radius:12px; padding:26px">
+                    <h3 style="font-size:14px; letter-spacing:0.08em; text-transform:uppercase; color:{{ sy.accent }}">{{ sy.label }}</h3>
+                    <ul style="margin-top:16px; display:flex; flex-direction:column; gap:10px">
+                      <sc-for list="{{ sy.items }}" as="syi" hint-placeholder-count="4">
+                        <li style="font-size:15px; line-height:1.55; color:#5A6076">{{ syi }}</li>
+                      </sc-for>
+                    </ul>
+                  </article>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ bc.hasUC }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:48px">
+              <button onClick="{{ bc.goUCDetail }}" style="background:none; border:1px solid #C9CDD8; border-radius:8px; padding:13px 20px; font-size:15px; color:#161B3D; line-height:1.2" style-hover="border-color:#161B3D">{{ bc.ucLabel }}</button>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isCompany }}" hint-placeholder-val="{{ false }}">
+      <div>
+        <section style="padding:64px 24px 24px">
+          <div style="max-width:1240px; margin:0 auto">
+            <h1 style="font-size:clamp(32px, 4vw, 48px); letter-spacing:-0.025em; max-width:24ch">{{ co.title }}</h1>
+            <p style="margin-top:18px; max-width:70ch; font-size:18px; line-height:1.65; color:#5A6076">{{ co.text }}</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:16px; margin-top:44px">
+              <sc-for list="{{ co.stats }}" as="st" hint-placeholder-count="4">
+                <div style="border-top:2px solid #161B3D; padding-top:18px">
+                  <span style="font-family:Archivo, sans-serif; font-size:clamp(40px, 5vw, 60px); line-height:1; letter-spacing:-0.03em; display:block">{{ st.n }}</span>
+                  <p style="margin-top:12px; font-size:16px">{{ st.l }}</p>
+                  <p style="margin-top:6px; font-size:14px; line-height:1.5; color:#5A6076">{{ st.d }}</p>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:64px 24px">
+          <div style="max-width:1240px; margin:0 auto">
+            <h2 style="font-size:clamp(24px, 2.8vw, 34px); letter-spacing:-0.02em">{{ co.credTitle }}</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-top:32px">
+              <sc-for list="{{ co.credibility }}" as="cr" hint-placeholder-count="6">
+                <article style="background:#F5F6F8; border-radius:12px; padding:26px">
+                  <h3 style="font-size:17px">{{ cr.t }}</h3>
+                  <p style="margin-top:12px; font-size:15px; line-height:1.55; color:#5A6076">{{ cr.d }}</p>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+
+        <section style="padding:24px 24px 72px">
+          <div style="max-width:1240px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:32px; align-items:start">
+            <div>
+              <h2 style="font-size:clamp(24px, 2.8vw, 34px); letter-spacing:-0.02em">{{ co.officesTitle }}</h2>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:16px; margin-top:28px">
+                <sc-for list="{{ offices }}" as="of" hint-placeholder-count="5">
+                  <div style="border:1px solid #E4E6EC; border-radius:12px; padding:22px">
+                    <h3 style="font-size:16px">{{ of.city }}</h3>
+                    <div style="margin-top:10px; display:flex; flex-direction:column; gap:4px">
+                      <sc-for list="{{ of.lines }}" as="ln" hint-placeholder-count="3">
+                        <span style="font-size:14px; line-height:1.45; color:#5A6076">{{ ln }}</span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+            <div style="border:1px solid #E4E6EC; border-radius:12px; padding:30px">
+              <h2 style="font-size:22px">{{ co.formTitle }}</h2>
+              <p style="margin-top:12px; font-size:15px; line-height:1.55; color:#5A6076">{{ co.formText }}</p>
+              <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+                <p style="margin-top:24px; background:#E4F7F4; color:#0E6F67; border-radius:10px; padding:18px; font-size:15px; line-height:1.5">{{ co.sentText }}</p>
+              </sc-if>
+              <form onSubmit="{{ onSubmit }}" style="margin-top:24px; display:flex; flex-direction:column; gap:16px">
+                <label style="display:flex; flex-direction:column; gap:7px; font-size:14px; color:#5A6076">{{ co.fName }}
+                  <input type="text" required="{{ true }}" style="border:1px solid #E4E6EC; border-radius:8px; padding:12px 14px; font-size:15px" />
+                </label>
+                <label style="display:flex; flex-direction:column; gap:7px; font-size:14px; color:#5A6076">{{ co.fEmail }}
+                  <input type="email" required="{{ true }}" style="border:1px solid #E4E6EC; border-radius:8px; padding:12px 14px; font-size:15px" />
+                </label>
+                <label style="display:flex; flex-direction:column; gap:7px; font-size:14px; color:#5A6076">{{ co.fCompany }}
+                  <input type="text" style="border:1px solid #E4E6EC; border-radius:8px; padding:12px 14px; font-size:15px" />
+                </label>
+                <label style="display:flex; flex-direction:column; gap:7px; font-size:14px; color:#5A6076">{{ co.fMessage }}
+                  <textarea rows="4" style="border:1px solid #E4E6EC; border-radius:8px; padding:12px 14px; font-size:15px; resize:vertical"></textarea>
+                </label>
+                <button type="submit" style="background:#F5A623; border:0; border-radius:8px; padding:14px 22px; color:#161B3D; font-size:15.5px; font-weight:500; line-height:1.2; align-self:flex-start" style-hover="background:#E29714">{{ co.fSend }}</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </sc-if>
+
+  </main>
+
+  <section style="background:#161B3D; color:#FFFFFF; padding:72px 24px">
+    <div style="max-width:1240px; margin:0 auto; display:flex; flex-wrap:wrap; gap:32px; align-items:center; justify-content:space-between">
+      <div style="max-width:56ch">
+        <h2 style="font-size:clamp(26px, 3vw, 36px); line-height:1.15; letter-spacing:-0.02em">{{ t.ctaTitle }}</h2>
+        <p style="margin-top:16px; font-size:17px; line-height:1.6; color:rgba(255,255,255,0.76)">{{ t.ctaText }}</p>
+      </div>
+      <button onClick="{{ goContact }}" style="background:#F5A623; border:0; border-radius:8px; padding:15px 26px; color:#161B3D; font-size:16px; font-weight:500" style-hover="background:#E29714">{{ t.demo }}</button>
+    </div>
+  </section>
+
+  <footer style="background:#0F1330; color:rgba(255,255,255,0.72); padding:64px 24px 40px">
+    <div style="max-width:1240px; margin:0 auto">
+      <div style="display:flex; flex-wrap:wrap; gap:40px; justify-content:space-between">
+        <div style="max-width:34ch; display:flex; flex-direction:column; gap:16px">
+          <span style="font-family:Archivo, sans-serif; font-size:22px; color:#FFFFFF">weensight</span>
+          <p style="font-size:16px; line-height:1.6">{{ footerClaim }}</p>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:24px 40px; flex:1; min-width:280px; max-width:660px">
+          <sc-for list="{{ offices }}" as="of" hint-placeholder-count="5">
+            <div style="display:flex; flex-direction:column; gap:6px">
+              <span style="color:#FFFFFF; font-family:Archivo, sans-serif; font-size:15px">{{ of.city }}</span>
+              <sc-for list="{{ of.lines }}" as="ln" hint-placeholder-count="3">
+                <span style="font-size:13.5px; line-height:1.45">{{ ln }}</span>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      <div style="margin-top:48px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.12); display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span style="width:14px; height:14px; transform:rotate(45deg); background:linear-gradient(90deg, #17A398 50%, #D6356F 50%); display:inline-block; border-radius:2px"></span>
+          <span style="font-size:13.5px">Powered by Wevioo</span>
+        </div>
+        <span style="font-size:13.5px">{{ footerLegal }}</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900}}">
+const TONES = {
+  teal: { bg: "#E4F7F4", fg: "#0E6F67", accent: "#17A398" },
+  coral: { bg: "#FBEAF0", fg: "#A82654", accent: "#D6356F" },
+  violet: { bg: "#EDEDF7", fg: "#2C2F5C", accent: "#3B3F7A" },
+  navy: { bg: "#EAECF3", fg: "#161B3D", accent: "#161B3D" },
+  orange: { bg: "#FDF1DE", fg: "#8A5A08", accent: "#F5A623" }
+};
+
+class Component extends DCLogic {
+  state = {
+    lang: "fr", page: "home", ucId: null, bcId: null,
+    view: 0, fam: "all", sector: "all", fn: "all", limit: 9, refSector: "all",
+    data: null, sent: false
+  };
+
+  componentDidMount() {
+    Promise.all([import("./content-core.js"), import("./content-cases.js")]).then(([core, cases]) => {
+      this.setState({ data: { ...core, BUSINESS_CASES: cases.BUSINESS_CASES } });
+    });
+  }
+
+  L(o) {
+    if (o === null || o === undefined) return "";
+    if (typeof o === "string") return o;
+    return o[this.state.lang] !== undefined ? o[this.state.lang] : o.fr;
+  }
+
+  go(page, extra) {
+    this.setState(Object.assign({ page: page, sent: false }, extra || {}));
+    if (typeof window !== "undefined") window.scrollTo(0, 0);
+  }
+
+  ucCard(uc) {
+    const d = this.state.data;
+    const fam = d.FAMILIES.find(f => f.id === uc.family);
+    const tone = TONES[fam.color];
+    return {
+      id: uc.id, code: uc.code,
+      title: this.L(uc.title), desc: this.L(uc.desc),
+      fam: this.L(fam.name), famBg: tone.bg, famFg: tone.fg, accent: tone.accent,
+      sector: this.L(d.SECTOR_LABELS[uc.sector]),
+      fn: this.L(d.FUNCTION_LABELS[uc.fn]),
+      client: this.L(uc.client),
+      techs: uc.techs.map(k => this.L(d.TECH_LABELS[k])),
+      go: () => this.go("uc", { ucId: uc.id })
+    };
+  }
+
+  bcCard(bc) {
+    const d = this.state.data;
+    return {
+      id: bc.id, client: bc.client, year: bc.year,
+      title: this.L(bc.title),
+      sector: this.L(d.SECTOR_LABELS[bc.sector] || { fr: bc.sector, en: bc.sector }),
+      tags: bc.tags,
+      go: () => this.go("bc", { bcId: bc.id })
+    };
+  }
+
+  filteredUC() {
+    const d = this.state.data, s = this.state;
+    return d.USECASES.filter(uc =>
+      (s.fam === "all" || uc.family === s.fam) &&
+      (s.sector === "all" || uc.sector === s.sector) &&
+      (s.fn === "all" || uc.fn === s.fn));
+  }
+
+  renderVals() {
+    const d = this.state.data, s = this.state, L = o => this.L(o);
+    const t = {};
+    const base = {
+      lang: s.lang, langLabel: s.lang === "fr" ? "EN" : "FR",
+      toggleLang: () => this.setState({ lang: s.lang === "fr" ? "en" : "fr" }),
+      goHome: () => this.go("home"), goPlatform: () => this.go("platform"),
+      goUC: () => this.go("usecases"), goRefs: () => this.go("refs"),
+      goContact: () => this.go("company"),
+      isHome: s.page === "home", isPlatform: s.page === "platform",
+      isCatalogue: s.page === "usecases", isUC: s.page === "uc",
+      isRefs: s.page === "refs", isBC: s.page === "bc", isCompany: s.page === "company"
+    };
+    if (!d) return Object.assign(base, { t: {} });
+
+    for (const k in d.UI) t[k] = L(d.UI[k]);
+
+    const navLabels = d.UI.nav[s.lang];
+    const nav = [
+      { label: navLabels[0], go: base.goPlatform },
+      { label: navLabels[1], go: base.goUC },
+      { label: navLabels[2], go: base.goRefs },
+      { label: navLabels[3], go: base.goContact }
+    ];
+
+    const fr = s.lang === "fr";
+    const out = Object.assign(base, {
+      t: t, nav: nav,
+      heroBadges: fr
+        ? ["Souveraine et privée", "100 % open source", "1er cas d'usage en 2 mois"]
+        : ["Sovereign and private", "100% open source", "First use case in 2 months"],
+      heroTitle: fr ? "L'IA générative qui reste chez vous" : "Generative AI that stays with you",
+      heroText: fr
+        ? "Weensight est la plateforme d'IA générative de Wevioo pour les entreprises : déployée on-premise ou en cloud privé, entièrement open source, conçue pour industrialiser plusieurs cas d'usage métier sur un socle unique."
+        : "Weensight is Wevioo's generative AI platform for enterprises: deployed on-premise or in a private cloud, fully open source, built to industrialise several business use cases on a single foundation.",
+      probKicker: fr ? "Les problématiques que Weensight résout" : "The problems Weensight solves",
+      probTitle: fr ? "Vos métiers font face à des freins structurels que les outils traditionnels ne résolvent plus" : "Your teams face structural blockers that traditional tools no longer solve",
+      probText: fr ? "Weensight y répond avec une plateforme unifiée, gouvernée et déployée dans votre infrastructure." : "Weensight answers with a unified, governed platform deployed inside your own infrastructure.",
+      problems: d.PROBLEMS.map(p => ({
+        icon: "ti " + p.icon, n: p.n, t: L(p.t), d: L(p.d),
+        bg: TONES[p.tone].bg, fg: TONES[p.tone].fg
+      })),
+      pillTitle: fr ? "Une plateforme robuste, ouverte et souveraine" : "A robust, open and sovereign platform",
+      pillars: d.PILLARS.map(p => ({ t: L(p.t), d: L(p.d), accent: TONES[p.tone].accent })),
+      platformLink: fr ? "Découvrir la plateforme" : "Explore the platform",
+      homePills: d.FAMILIES.slice(0, 3).map(f => ({
+        label: L(f.name), bg: TONES[f.color].bg, fg: TONES[f.color].fg,
+        go: () => this.go("usecases", { fam: f.id, view: 0, limit: 9 })
+      })),
+      homeCards: [d.USECASES[0], d.USECASES[9], d.USECASES[11]].map(uc => this.ucCard(uc)),
+      logosKicker: fr ? "Ils nous ont fait confiance" : "Trusted by",
+      logos: d.CLIENT_LOGOS,
+      footerClaim: fr ? "500+ projets délivrés dans plus de 30 pays de la région EMEA." : "500+ projects delivered in more than 30 countries across EMEA.",
+      footerLegal: fr ? "Weensight — plateforme d'IA générative de Wevioo" : "Weensight — Wevioo's generative AI platform",
+      offices: d.COMPANY.offices
+    });
+    // ---- Plateforme
+    out.pf = {
+      kicker: L(d.PLATFORM.hero.kicker), title: L(d.PLATFORM.hero.title), text: L(d.PLATFORM.hero.text),
+      robustTitle: fr ? "Une plateforme robuste, ouverte et souveraine" : "A robust, open and sovereign platform",
+      robust: d.PLATFORM.robust.map(r => ({ t: L(r.t), d: L(r.d) })),
+      archTitle: fr ? "Une IA privée, sécurisée, pilotée par votre contexte" : "Private, secure AI driven by your own context",
+      archText: fr ? "De la gestion des données au déploiement des applications, chaque couche reste dans votre infrastructure : on-premise, cloud privé ou data center privé." : "From data management to application deployment, every layer stays inside your infrastructure: on-premise, private cloud or private data centre.",
+      layers: d.PLATFORM.layers.map((ly, i) => ({
+        n: "0" + (i + 1), key: L(ly.key), items: L(ly.items),
+        accent: [TONES.teal.accent, TONES.violet.accent, TONES.orange.accent, TONES.coral.accent][i % 4]
+      })),
+      govTitle: fr ? "L'accélérateur projet qui fait passer vos cas d'usage du POC à la production" : "The project accelerator that takes use cases from POC to production",
+      govText: fr ? "Weensight industrialise dès le départ : gouvernance, sécurité, observabilité et évaluation intégrées au socle." : "Weensight industrialises from day one: governance, security, observability and evaluation built into the foundation.",
+      governance: d.PLATFORM.governance.map(g => ({ icon: "ti " + g.icon, t: L(g.t), items: L(g.items) })),
+      compTitle: fr ? "Ce n'est pas un SaaS. C'est un environnement IA privé déployé dans votre infrastructure." : "This is not SaaS. It is a private AI environment deployed in your infrastructure.",
+      isnotTitle: fr ? "Ce que ce n'est pas" : "What it is not",
+      isTitle: fr ? "Ce que c'est" : "What it is",
+      isnot: L(d.PLATFORM.isnot), is: L(d.PLATFORM.is),
+      engTitle: fr ? "Notre mode d'engagement" : "How we engage",
+      engText: fr ? "Quatre principes structurants de notre delivery." : "Four structuring principles of our delivery.",
+      engagement: d.PLATFORM.engagement.map(e => ({ t: L(e.t), d: L(e.d), accent: TONES[e.tone].accent })),
+      benTitle: fr ? "Les bénéfices métiers" : "Business benefits",
+      benefits: d.PLATFORM.benefits.map(b => ({ t: L(b.t), d: L(b.d) }))
+    };
+
+    // ---- Catalogue
+    const tabLabels = d.UI.views[s.lang];
+    out.tabs = tabLabels.map((label, i) => ({
+      label: label, go: () => this.setState({ view: i }),
+      line: s.view === i ? "#17A398" : "transparent",
+      color: s.view === i ? "#161B3D" : "#5A6076"
+    }));
+    out.viewTypo = s.view === 0; out.viewSector = s.view === 1; out.viewFn = s.view === 2;
+    const pill = (label, active, tone, go) => ({
+      label: label, go: go,
+      bg: active ? (tone ? TONES[tone].bg : "#161B3D") : "#FFFFFF",
+      fg: active ? (tone ? TONES[tone].fg : "#FFFFFF") : "#5A6076",
+      border: active ? (tone ? TONES[tone].accent : "#161B3D") : "#E4E6EC"
+    });
+    out.famPills = [pill(t.allUC, s.fam === "all", null, () => this.setState({ fam: "all", limit: 9 }))].concat(
+      d.FAMILIES.map(f => pill(L(f.name), s.fam === f.id, f.color, () => this.setState({ fam: f.id, limit: 9 }))));
+    const usedSectors = [];
+    d.USECASES.forEach(uc => { if (usedSectors.indexOf(uc.sector) < 0) usedSectors.push(uc.sector); });
+    const usedFns = [];
+    d.USECASES.forEach(uc => { if (usedFns.indexOf(uc.fn) < 0) usedFns.push(uc.fn); });
+    out.sectorVal = s.sector; out.fnVal = s.fn;
+    out.sectorOptions = [{ value: "all", label: t.allSectors }].concat(usedSectors.map(k => ({ value: k, label: L(d.SECTOR_LABELS[k]) })));
+    out.fnOptions = [{ value: "all", label: t.allFns }].concat(usedFns.map(k => ({ value: k, label: L(d.FUNCTION_LABELS[k]) })));
+    out.onSector = e => this.setState({ sector: e.target.value, limit: 9 });
+    out.onFn = e => this.setState({ fn: e.target.value, limit: 9 });
+    const filtered = this.filteredUC();
+    out.ucCards = filtered.slice(0, s.limit).map(uc => this.ucCard(uc));
+    out.hasMore = filtered.length > s.limit;
+    out.showMore = () => this.setState({ limit: s.limit + 6 });
+    out.resultCount = filtered.length === 0 ? t.noResult
+      : filtered.length + (fr ? (filtered.length > 1 ? " cas d'usage" : " cas d'usage") : (filtered.length > 1 ? " use cases" : " use case"));
+    out.sectorView = d.SECTOR_VIEW.map(sv => ({
+      name: L(sv.name), goal: L(sv.goal),
+      items: sv.items.map(i => ({ t: L(i.t), k: L(i.k) }))
+    }));
+    out.fnView = d.FUNCTION_VIEW.map(fv => ({ name: L(fv.name), pain: L(fv.pain), items: L(fv.items) }));
+
+    // ---- Fiche cas d'usage
+    const ucRec = d.USECASES.find(u => u.id === s.ucId) || d.USECASES[0];
+    const famRec = d.FAMILIES.find(f => f.id === ucRec.family);
+    const bcOfUC = ucRec.bc ? d.BUSINESS_CASES.find(b => b.id === ucRec.bc) : null;
+    out.uc = Object.assign(this.ucCard(ucRec), {
+      value: L(famRec.value),
+      hasBC: !!bcOfUC,
+      bcLabel: bcOfUC ? (fr ? "Voir le business case " + bcOfUC.client : "View the " + bcOfUC.client + " business case") : "",
+      goBC: bcOfUC ? () => this.go("bc", { bcId: bcOfUC.id }) : null,
+      related: d.USECASES.filter(u => u.family === ucRec.family && u.id !== ucRec.id).slice(0, 3).map(u => this.ucCard(u))
+    });
+
+    // ---- Références
+    const refSectors = [];
+    d.BUSINESS_CASES.forEach(b => { if (refSectors.indexOf(b.sector) < 0) refSectors.push(b.sector); });
+    out.refPills = [pill(t.allUC, s.refSector === "all", null, () => this.setState({ refSector: "all" }))].concat(
+      refSectors.map(k => pill(L(d.SECTOR_LABELS[k]), s.refSector === k, null, () => this.setState({ refSector: k }))));
+    out.bcCards = d.BUSINESS_CASES
+      .filter(b => s.refSector === "all" || b.sector === s.refSector)
+      .map(b => this.bcCard(b));
+
+    // ---- Fiche business case
+    const bcRec = d.BUSINESS_CASES.find(b => b.id === s.bcId) || d.BUSINESS_CASES[0];
+    const ucOfBC = bcRec.uc ? d.USECASES.find(u => u.id === bcRec.uc) : null;
+    const procTones = [TONES.navy.accent, TONES.teal.accent, TONES.orange.accent, TONES.coral.accent, TONES.violet.accent];
+    out.bc = Object.assign(this.bcCard(bcRec), {
+      about: L(bcRec.about), need: L(bcRec.need), solution: L(bcRec.solution), benefits: L(bcRec.benefits),
+      hasProcess: bcRec.process && bcRec.process.length > 0,
+      process: (bcRec.process || []).map((ps, i) => ({ n: "0" + (i + 1), t: L(ps.t), d: L(ps.d), accent: procTones[i % 5] })),
+      hasSynthesis: !!bcRec.synthesis,
+      synthesis: bcRec.synthesis ? [
+        { label: t.output, items: L(bcRec.synthesis.output), accent: TONES.navy.accent },
+        { label: t.valueClient, items: L(bcRec.synthesis.value), accent: TONES.teal.accent },
+        { label: t.aiContrib, items: L(bcRec.synthesis.ai), accent: TONES.coral.accent }
+      ] : [],
+      hasUC: !!ucOfBC,
+      ucLabel: ucOfBC ? (fr ? "Cas d'usage : " + L(ucOfBC.title) : "Use case: " + L(ucOfBC.title)) : "",
+      goUCDetail: ucOfBC ? () => this.go("uc", { ucId: ucOfBC.id }) : null
+    });
+
+    // ---- Wevioo & contact
+    out.sent = s.sent;
+    out.onSubmit = e => { e.preventDefault(); this.setState({ sent: true }); };
+    out.co = {
+      title: fr ? "Wevioo, partenaire de vos enjeux de transformation" : "Wevioo, partner for your transformation challenges",
+      text: fr ? "460 talents, 28 ans d'expérience et six implantations : Weensight s'appuie sur les équipes data et IA de Wevioo et sur 500+ projets délivrés dans plus de 30 pays de la région EMEA." : "460 talents, 28 years of experience and six locations: Weensight is built on Wevioo's data and AI teams and on 500+ projects delivered in more than 30 countries across EMEA.",
+      stats: d.COMPANY.stats.map(st => ({ n: st.n, l: L(st.l), d: L(st.d) })),
+      credTitle: fr ? "Des preuves, pas des promesses" : "Proof, not promises",
+      credibility: d.COMPANY.credibility.map(c => ({ t: L(c.t), d: L(c.d) })),
+      officesTitle: fr ? "Nos bureaux" : "Our offices",
+      formTitle: fr ? "Contactez-nous" : "Contact us",
+      formText: fr ? "Décrivez votre contexte : nous revenons vers vous avec une proposition de cadrage." : "Describe your context and we will come back with a framing proposal.",
+      fName: fr ? "Nom" : "Name", fEmail: "Email", fCompany: fr ? "Société" : "Company",
+      fMessage: "Message", fSend: fr ? "Envoyer" : "Send",
+      sentText: fr ? "Merci, votre message est bien pris en compte. Un consultant Weensight vous répondra sous 48 heures." : "Thank you, your message has been received. A Weensight consultant will reply within 48 hours."
+    };
+
+    return out;
+  }
+}
+
+</script>
+</body>
+</html>
